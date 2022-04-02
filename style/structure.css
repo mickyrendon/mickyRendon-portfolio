@@ -1,0 +1,52 @@
+/* groupal selector */
+.sticky-nav, main, .resume, .resume-container, .network-list, .portfolio-gallery{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+.sticky-nav, .network-container{
+    padding: 0.5rem;
+}
+main, footer{
+    padding: 0 0.5rem;
+}
+.profile-pic, .resume-text, .hobbies, .technologies-list, .network-list{
+    margin: 1rem 0;
+}
+svg{
+    height: 20px;
+}
+.hobbies, .technologies-list{
+    width: 100%;
+}
+li{
+    margin: 0.5rem 0;
+}
+/* /////////////// */
+.sticky-nav{
+    width: 100%;
+    justify-content: flex-end;
+}
+.profile-pic{
+    width: 12rem;
+    border-radius: 50%;
+}
+.network-container{
+    width: 100%;
+}
+.network-list{
+    justify-content: space-evenly;
+}
+.network-list li{
+    width: 2rem;
+}
+.portfolio-gallery{
+    padding: 1rem 0;
+    width: 100%;
+}
+.options{
+    width: 100%;
+}
+footer{
+    height: 5rem;
+}
