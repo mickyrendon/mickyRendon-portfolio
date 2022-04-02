@@ -1,5 +1,5 @@
 /* groupal selector */
-.sticky-nav, main, .resume, .resume-container, .network-list, .portfolio-gallery{
+.sticky-nav, main, .resume, .resume-container, .network-list, .hobbies, .technologies-list, .portfolio-gallery{
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
@@ -21,9 +21,14 @@ svg{
 }
 .hobbies, .technologies-list{
     width: 100%;
+    overflow: clip;
+    height: 8rem;
+    justify-content: flex-start;
 }
 li{
     margin: 0.5rem 0;
+    width: 50%;
+    text-align: justify;
 }
 /* /////////////// */
 .sticky-nav{
