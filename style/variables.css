@@ -1,6 +1,4 @@
 /* default theme */
-
-
 body {
     --text-color: #222;
     --bkg-color: #fff;
@@ -13,17 +11,15 @@ body.dark-theme {
 @media (prefers-color-scheme: dark) {
     /* defaults to dark theme */
     body {
-      --text-color: #eee;
-      --bkg-color: #121212;
+        --text-color: #eee;
+        --bkg-color: #121212;
     }
     body.light-theme {
-      --text-color: #222;
-      --bkg-color: #fff;
+        --text-color: #222;
+        --bkg-color: #fff;
     }
   }
-  * {
-    font-family: Arial, Helvetica, sans-serif;
-  }
+  
   
   body {
     background: var(--bkg-color);
