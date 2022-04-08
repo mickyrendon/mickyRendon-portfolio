@@ -77,9 +77,35 @@ h4{
     padding: 1rem 0;
     width: 100%;
 }
-.options{
+.proyects-container{
     width: 100%;
 }
+.label{
+    width: 70%;
+}
+.info-container{
+    display: flex;
+    flex-direction: column;
+}
+.proyect-label{
+    padding: 1rem;
+    margin: 0.5rem 0;
+    height:9vh;
+    background-size: cover;
+    background-position: center;
+    border-radius: 2rem;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.5s ease-out; 
+}
+/* class for js */
+.active{
+    height:50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+/* //////////// */
 footer{
     height: 5rem;
 }
