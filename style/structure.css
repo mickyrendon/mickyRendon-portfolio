@@ -5,7 +5,7 @@
     line-height: 1.5;
   }
 /* groupal selector */
-.sticky-nav, main, .resume, .resume-container, .network-list, .hobbies, .technologies-list, .portfolio-gallery{
+.sticky-nav, main, .resume, .resume-container, .network-list, .hobbies, .technologies-list, .portfolio-gallery, .label{
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
@@ -38,6 +38,9 @@ li{
     width: 50%;
     text-align: justify;
     align-self: center;
+}
+i{
+    height: auto;
 }
 /* /////////////// */
 .sticky-nav{
@@ -81,8 +84,17 @@ h4{
     width: 100%;
 }
 .label{
-    width: 70%;
+    width:70%;
+    justify-content: flex-start;
+    flex-flow: nowrap;
 }
+.icon-container{
+    margin-right: 2rem;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+}
+
 .info-container{
     display: flex;
     flex-direction: column;
@@ -90,11 +102,12 @@ h4{
 .proyect-label{
     padding: 1rem;
     margin: 0.5rem 0;
-    height:9vh;
+    height:8vh;
+    position: relative;
     background-size: cover;
     background-position: center;
+    overflow: hidden;
     border-radius: 2rem;
-    position: relative;
     cursor: pointer;
     transition: all 0.5s ease-out; 
 }
