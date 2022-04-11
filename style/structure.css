@@ -145,22 +145,22 @@ h4{
 }
 /* backgrounds proyects */
 .guifos{
-    background-image: url(/assets/profilePic/gallery/proyectsBackgrounds/guifos.png);
+    background-image: url(./assets/profilePic/gallery/proyectsBackgrounds/guifos.png);
 }
 .podcast{
-    background-image: url(/assets/profilePic/gallery/proyectsBackgrounds/paleBlue.png);
+    background-image: url(./assets/profilePic/gallery/proyectsBackgrounds/paleBlue.png);
 }
 .los-tilos{
-    background-image: url(/assets/profilePic/gallery/proyectsBackgrounds/lostilos.png);
+    background-image: url(./assets/profilePic/gallery/proyectsBackgrounds/lostilos.png);
 }
 .budget{
-    background-image: url(/assets/profilePic/gallery/proyectsBackgrounds/budget.png);
+    background-image: url(./assets/profilePic/gallery/proyectsBackgrounds/budget.png);
 }
 .bensof{
-    background-image: url(/assets/profilePic/gallery/proyectsBackgrounds/bensof.png);
+    background-image: url(./assets/profilePic/gallery/proyectsBackgrounds/bensof.png);
 }
 .watch{
-    background-image: url(/assets/profilePic/gallery/proyectsBackgrounds/clock.png);
+    background-image: url(./assets/profilePic/gallery/proyectsBackgrounds/clock.png);
 }
 .info-container{
     display: flex;
