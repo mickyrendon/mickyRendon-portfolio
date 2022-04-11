@@ -42,6 +42,13 @@ li{
 i{
     height: auto;
 }
+.icon-container, .info-container{
+    pointer-events: none;
+}
+.github-icon, .twitter-icon, .linkedin-icon{
+    width: 1.5rem;
+    height: 1.5rem;
+}
 /* /////////////// */
 .sticky-nav{
     width: 100%;
@@ -83,24 +90,8 @@ h4{
 .proyects-container{
     width: 100%;
 }
-.label{
-    width:70%;
-    justify-content: flex-start;
-    flex-flow: nowrap;
-}
-.icon-container{
-    margin-right: 2rem;
-    height: 2rem;
-    width: 2rem;
-    border-radius: 50%;
-}
-
-.info-container{
-    display: flex;
-    flex-direction: column;
-}
 .proyect-label{
-    padding: 1rem;
+    /* padding: 1rem; */
     margin: 0.5rem 0;
     height:8vh;
     position: relative;
@@ -110,15 +101,72 @@ h4{
     border-radius: 2rem;
     cursor: pointer;
     transition: all 0.5s ease-out; 
+
+}
+.label{
+    padding: 1rem;
+    width:100%;
+    justify-content: flex-start;
+    flex-flow:row nowrap;
+    align-items: flex-start;
+    /* cambiar por una variable */
+    background-color: #000000c0;
+}
+.icon-container{
+    margin-right: 2rem;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    /* opacity: .9; */
 }
 /* class for js */
 .active{
+    padding: 0;
     height:50vh;
     display: flex;
     flex-direction: column;
     justify-content: end;
+    background-size: cover;
+}
+.column{
+    height: 100%;
+    justify-content:flex-end;
+    flex-flow: column nowrap;
+    background-size: cover;
 }
 /* //////////// */
+/* setting individual logo */
+.guifos-logo, .podcast-logo, .losTilos-logo, .budget-icon, .bensof-logo, .watch-logo{
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.912);
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.912);
+}
+/* backgrounds proyects */
+.guifos{
+    background-image: url(/assets/profilePic/gallery/proyectsBackgrounds/guifos.png);
+}
+.podcast{
+    background-image: url(/assets/profilePic/gallery/proyectsBackgrounds/paleBlue.png);
+}
+.los-tilos{
+    background-image: url(/assets/profilePic/gallery/proyectsBackgrounds/lostilos.png);
+}
+.budget{
+    background-image: url(/assets/profilePic/gallery/proyectsBackgrounds/budget.png);
+}
+.bensof{
+    background-image: url(/assets/profilePic/gallery/proyectsBackgrounds/bensof.png);
+}
+.watch{
+    background-image: url(/assets/profilePic/gallery/proyectsBackgrounds/clock.png);
+}
+.info-container{
+    display: flex;
+    flex-direction: column;
+}
+/* /////////////////// */
 footer{
     height: 5rem;
 }
