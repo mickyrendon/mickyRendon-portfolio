@@ -1,14 +1,16 @@
-const proyectLabel = document.querySelectorAll('.proyect-label');
+// const proyectLabel = document.querySelectorAll('.proyect-label');
+const label = document.querySelectorAll('.label');
 
-proyectLabel.forEach(e => {
+
+label.forEach(e => {
     e.addEventListener('click', click, true)
 });
 
 function click(e){
-    proyectLabel.forEach((e) => {
-        e.classList.remove('active')
+    label.forEach((e) => {
+        e.parentElement.classList.remove('active');
+        e.classList.remove('column');
     })
-    e.target.classList.add('active')
-  
-    console.log(`clickeado el elemento`);
+    e.target.parentElement.classList.add('active');
+    e.target.classList.add('column');
 }
