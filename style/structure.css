@@ -49,6 +49,9 @@ i{
     width: 1.5rem;
     height: 1.5rem;
 }
+.proyect-label, .label, .column{
+    transition: all 0.5s ease-out; 
+}
 /* /////////////// */
 .sticky-nav{
     width: 100%;
@@ -100,8 +103,12 @@ h4{
     overflow: hidden;
     border-radius: 2rem;
     cursor: pointer;
-    transition: all 0.5s ease-out; 
 
+}
+.shadow-active{
+    height: 100%;
+    position: relative;
+    background-color: #000000c0;
 }
 .label{
     padding: 1rem;
@@ -109,6 +116,7 @@ h4{
     justify-content: flex-start;
     flex-flow:row nowrap;
     align-items: flex-start;
+    position: absolute;
     /* cambiar por una variable */
     background-color: #000000c0;
 }
@@ -143,28 +151,38 @@ h4{
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.912);
 }
-/* backgrounds proyects */
+/* backgrounds proyects -- to fixe path*/
 .guifos{
-    background-image: url(./assets/profilePic/gallery/proyectsBackgrounds/guifos.png);
+    background-image: url(../assets/profilePic/gallery/proyectsBackgrounds/guifos.png);
 }
 .podcast{
-    background-image: url(./assets/profilePic/gallery/proyectsBackgrounds/paleBlue.png);
+    background-image: url(../assets/profilePic/gallery/proyectsBackgrounds/paleBlue.png);
 }
 .los-tilos{
-    background-image: url(./assets/profilePic/gallery/proyectsBackgrounds/lostilos.png);
+    background-image: url(../assets/profilePic/gallery/proyectsBackgrounds/lostilos.png);
 }
 .budget{
-    background-image: url(./assets/profilePic/gallery/proyectsBackgrounds/budget.png);
+    background-image: url(../assets/profilePic/gallery/proyectsBackgrounds/budget.png);
 }
 .bensof{
-    background-image: url(./assets/profilePic/gallery/proyectsBackgrounds/bensof.png);
+    background-image: url(../assets/profilePic/gallery/proyectsBackgrounds/bensof.png);
 }
 .watch{
-    background-image: url(./assets/profilePic/gallery/proyectsBackgrounds/clock.png);
+    background-image: url(../assets/profilePic/gallery/proyectsBackgrounds/clock.png);
 }
 .info-container{
     display: flex;
     flex-direction: column;
+}
+
+/* attribute selector */
+[href]{
+    max-width: 20vw;
+    color: tomato;
+    pointer-events: all;
+}
+[href]:hover{
+    color: red;
 }
 /* /////////////////// */
 footer{
