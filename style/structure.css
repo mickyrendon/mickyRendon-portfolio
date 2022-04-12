@@ -4,11 +4,19 @@
     font-size: 1rem;
     line-height: 1.5;
   }
+  body{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+  }
 /* groupal selector */
 .sticky-nav, main, .resume, .resume-container, .network-list, .hobbies, .technologies-list, .portfolio-gallery, .label{
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+}
+.sticky-nav, main, footer{
+    max-width: 70vw;
 }
 .sticky-nav, .network-container{
     padding: 0.5rem;
@@ -85,6 +93,9 @@ i{
 }
 h4{
     width: -moz-available;
+}
+.technologies-list{
+    height: auto;
 }
 .portfolio-gallery{
     padding: 1rem 0;
