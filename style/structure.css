@@ -86,6 +86,9 @@ i{
 h4{
     width: -moz-available;
 }
+.technologies-list{
+    height: auto;
+}
 .portfolio-gallery{
     padding: 1rem 0;
     width: 100%;
