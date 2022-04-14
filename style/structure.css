@@ -2,39 +2,39 @@
 * {
     font-family: roboto, monospace, sans-serif;
     font-size: 1rem;
-    line-height: 1.5;
+    word-spacing:0.4ch;
+    line-height: 1.7rem;
   }
   body{
     display: flex;
     align-items: center;
     flex-direction: column;
     background: var(--bkg-color);
+}
+body, main,.resume-text, .hobbies-container, .tech-container{
     transition: all 1000ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  }
+} 
   /* attribute selector */
 [href]{
-    max-width: 20vw;
+    max-width: 50vw;
     color:var(--link-c);
     pointer-events: all;
     font-weight: 900;
 }
 [href]:hover{
-    color: red;
+    color: rgb(183, 97, 232);
 }
   img{
     filter: var(--image-contrast);  
   }
-  h1,p, ul, div{
+  h1, h4, p, ul, div{
     color: var(--text-color);
   } 
-/* groupal selector */
-.sticky-nav, main, .resume, .resume-container, .network-list, .hobbies, .technologies-list, .portfolio-gallery, .label{
+/* groupal selector  .resume-container*/
+.sticky-nav, main, .resume, .network-container, .network-list, .hobbies, .technologies-list, .portfolio-gallery, .label{
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-}
-.network-container{
-    padding: 0.5rem;
 }
 main, footer{
     padding: 0 0.5rem;
@@ -48,11 +48,11 @@ main, footer{
     margin: 0 0 1rem;
     /* background: var(--bkg-components); */
     border-radius: 1rem;
-    transition: all 1000ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    /* transition: all 1000ms cubic-bezier(0.68, -0.55, 0.265, 1.55); */
 }
 .resume-text, .hobbies-container, .tech-container{
     outline: var(--outline);
-    box-shadow: var(--outline-sh);
+    box-shadow:var(--gallery-bx-sh);/* var(--outline-sh) */
 }
 .circle-btn, .profile-pic{
     border-radius: 50%;
@@ -62,7 +62,9 @@ svg{
     height: 20px;
 }
 .hobbies, .technologies-list{
-    width: 100%;
+    margin-top: 1rem;
+    width:100%;
+    height: auto;
     overflow: clip;
     height: 8rem;
     justify-content: flex-start;
@@ -77,6 +79,10 @@ i, b{
     height: auto;
     color:#ebeaeb;
 }
+b{
+    font-size: 1.1rem;
+}
+
 .icon-container, .info-container{
     pointer-events: none;
 }
@@ -91,136 +97,6 @@ i, b{
 .sticky-nav{
     padding:0.1rem;
     width: 100%;
-    justify-content: flex-end;
-}
-.profile-pic{
-    padding: 0;
-    width: 12rem;
-    box-shadow: var(--box-shadow);
-    transition: all 1.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-}
-.network-container{
-    width: 100%;
-}
-.network-list{
-    justify-content: space-evenly;
-    border: none;
-}
-.network-list li{
-    width: 2rem;
-}
-.network-icon{
-    width: 2rem;
-    height:2rem;
-    background:var(--network-bck);
-    border-radius: 50%;
-    transition: all 2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-}
-h4{
-    width: -moz-available;
-}
-.technologies-list{
-    height: auto;
-}
-.portfolio-gallery{
-    padding: 1rem 0;
-    width: 100%;
-}
-.proyects-container{
-    width: 100%;
-}
-.proyect-label{
-    margin: 0.5rem 0;
-    height:8vh;
-    position: relative;
-    background-size: cover;
-    background-position: center;
-    overflow: hidden;
-    border-radius: 2rem;
-    box-shadow: var(--gallery-bx-sh);
-    /* outline: var(--label-out); */
-    cursor: pointer;
-}
-.shadow-active{
-    height: 100%;
-    position: relative;
-    background-color: #000000c0;
-}
-.label{
-    padding: 1rem;
-    width:100%;
-    justify-content: flex-start;
-    flex-flow:row nowrap;
-    align-items: flex-start;
-    position: absolute;
-    /* cambiar por una variable */
-    background-color: #000000c0;
-}
-.icon-container{
-    margin-right: 2rem;
-    width: 3rem;
-    height: 3rem;
-    border-radius: 50%;
-    /* opacity: .9; */
-}
-/* class for js */
-.active{
-    padding: 0;
-    height:50vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    background-size: cover;
-}
-.column{
-    height: 100%;
-    justify-content:flex-end;
-    flex-flow: column nowrap;
-    background-size: cover;
-}
-/* //////////// */
-/* setting individual logo */
-.guifos-logo, .podcast-logo, .losTilos-logo, .budget-icon, .bensof-logo, .watch-logo{
-    width: 2.5rem;
-    height: 2.5rem;
-    border: 1px solid #faf9fb;
-    box-shadow: var(--gallery-bx-sh);
-    border-radius: 50%;
-    background-color:#faf9fb;
-    outline: none;
-    border: none;
-}
-/* backgrounds proyects -- to fixe path*/
-.guifos{
-    background-image: url(../assets/profilePic/gallery/proyectsBackgrounds/guifos.png);
-}
-.podcast{
-    background-image: url(../assets/profilePic/gallery/proyectsBackgrounds/paleBlue.png);
-}
-.los-tilos{
-    background-image: url(../assets/profilePic/gallery/proyectsBackgrounds/lostilos.png);
-}
-.budget{
-    background-image: url(../assets/profilePic/gallery/proyectsBackgrounds/budget.png);
-}
-.bensof{
-    background-image: url(../assets/profilePic/gallery/proyectsBackgrounds/bensof.png);
-}
-.watch{
-    background-image: url(../assets/profilePic/gallery/proyectsBackgrounds/clock.png);
-}
-.info-container{
-    display: flex;
-    flex-direction: column;
-}
-
-
-/* /////////////////// */
-footer{
-    height: 5rem;
-}
-/* toggle classes */
-.flex-end{
     justify-content: flex-end;
 }
 /* lightblue css */
@@ -275,10 +151,216 @@ footer{
     opacity: var(--f-o);
     background:var(--f-bck);
 }
+/* /////// */
+.profile-pic{
+    padding: 0;
+    width: 12rem;
+    box-shadow: var(--box-shadow);
+    transition: all 1.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.network-container{
+    padding: 0.5rem;
+    width: 100%;
+}
+.network-list{
+    width: 100%;
+    justify-content: space-evenly;
+    border: none;
+}
+.network-list li{
+    width: 2rem;
+}
+.network-icon{
+    width: 2rem;
+    height:2rem;
+    background:var(--network-bck);
+    border-radius: 50%;
+    transition: all 2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+h4{
+    width: -moz-available;
+}
+.technologies-list{
+    height: auto;
+}
+.portfolio-gallery{
+    padding: 1rem 0;
+    width: 100%;
+}
+.proyects-container{
+    width: 100%;
+}
+.proyect-label{
+    margin: 0.5rem 0;
+    height:8vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    border-radius: 2rem;
+    box-shadow: var(--gallery-bx-sh);
+    /* outline: var(--label-out); */
+    cursor: pointer;
+}
+.shadow-active{
+    height: 100%;
+    position: relative;
+    background-color: #000000c0;
+}
+.label{
+    padding:1rem;
+    width:100%;
+    justify-content: flex-start;
+    flex-flow:row nowrap;
+    align-items: flex-start;
+    position: absolute;
+    /* cambiar por una variable */
+    background-color: #000000c0;
+}
+.icon-container{
+    margin-right: 2rem;
+    width: 3rem;
+    height: 3rem;
+    position: relative;
+    right: 0.5vw;
+    border-radius: 50%;
+    /* opacity: .9; */
+}
+/* class for js */
+.active{
+    padding: 0;
+    height:50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background-size: cover;
+}
+.column{
+    height: 100%;
+    justify-content:flex-end;
+    flex-flow: column nowrap;
+    background-size: cover;
+}
+.active-text{
+    position: relative;
+    top: 0vh;
+}
+/* //////////// */
+/* setting individual logo */
+.guifos-logo, .podcast-logo, .losTilos-logo, .budget-icon, .bensof-logo, .watch-logo{
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 1px solid #faf9fb;
+    box-shadow: var(--gallery-bx-sh);
+    border-radius: 50%;
+    background-color:#faf9fb;
+    outline: none;
+    border: none;
+}
+/* backgrounds proyects -- to fixe path*/
+.guifos{
+    background-image: url(../assets/profilePic/gallery/proyectsBackgrounds/guifos.png);
+}
+.podcast{
+    background-image: url(../assets/profilePic/gallery/proyectsBackgrounds/paleBlue.png);
+}
+.los-tilos{
+    background-image: url(../assets/profilePic/gallery/proyectsBackgrounds/lostilos.png);
+}
+.budget{
+    background-image: url(../assets/profilePic/gallery/proyectsBackgrounds/budget.png);
+}
+.bensof{
+    background-image: url(../assets/profilePic/gallery/proyectsBackgrounds/bensof.png);
+}
+.watch{
+    background-image: url(../assets/profilePic/gallery/proyectsBackgrounds/clock.png);
+}
+.info-container{
+    display: flex;
+    flex-direction: column;
+}
 
 
-@media(min-width:720px) {
+/* /////////////////// */
+footer{
+    height: 5rem;
+}
+/* toggle classes */
+.flex-end{
+    justify-content: flex-end;
+}
+
+
+
+@media(min-width:520px){
     .sticky-nav, main, footer{
        max-width: 70vw;
     }
+}
+@media(min-width:920px){
+    body{
+        margin: 0 auto;
+        max-width: 90vw;
+    }
+    .resume, .network-list{
+        justify-content: space-evenly;
+    }
+    .hobbies{
+        height: auto;
+    }
+    .network-container, .resume-text, .hobbies-container, .tech-container{
+        margin: 5rem 0 0 ;
+        max-width: 40vw;
+    }
+    /* .hobbies-container, .tech-container{
+        margin
+    } */
+    .sticky-nav, main, footer{
+        max-width: 100%;
+     }
+     .network-container{
+         flex-wrap: nowrap;
+         align-items: center;
+         /* align-self: center; */
+     }
+     .network-list{
+         width: auto;
+         display: block;
+     }
+  
+     .portfolio-gallery{
+         margin-top: 5rem;
+     }
+     .proyects-container{
+         display: flex;
+         justify-content:flex-end;
+     }
+     .proyect-label{
+        margin:0 0.5rem;
+        height: 47vh;
+        width: 6vw;
+     }
+     .label{
+         padding: 2rem;
+         height: 100%;
+     }
+     .icon-container{
+        top:36vh;
+        left: -2vw;
+     }
+     .active{
+         width: 50vw;
+         height: 50vh;
+     }
+}
+@media (min-width:1100px){
+    .icon-container{
+        left: -1vw;
+     }
+}
+@media (min-width:1300px){
+    .icon-container{
+        left: -1vw;
+     }
 }

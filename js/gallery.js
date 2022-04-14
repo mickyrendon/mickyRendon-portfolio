@@ -13,4 +13,5 @@ function click(e){
     e.target.parentElement.classList.add('active');
     e.target.classList.add('shadow-active');
     e.target.classList.add('column');
+    e.target.classList.add('active-text');
 }
