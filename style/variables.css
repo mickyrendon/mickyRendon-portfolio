@@ -1,12 +1,3 @@
-/* default theme */
-/* body {
-    --text-color: #222;
-    --bkg-color: #fff;
-  }
-body.dark-theme {
-    --text-color: #eee;
-    --bkg-color: #121212;
-  } */
 /* dark theme */
 @media (prefers-color-scheme: dark) {
     /* defaults to dark theme */
@@ -56,17 +47,3 @@ body.dark-theme {
 
     }
   }
-  /* .s-bulb {
-    fill: var(--s-bulb-color);
-    stroke: var(--s-bulb-color);
-    stroke-width: 2;
-    transition: 100ms;
-  } */
-  
-  body {
-    background: var(--bkg-color);
-  }
-  
-  h1,p, ul, div{
-    color: var(--text-color);
-  } 

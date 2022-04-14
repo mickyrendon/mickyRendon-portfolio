@@ -8,16 +8,18 @@
       display: flex;
       align-items: center;
       flex-direction: column;
+      background: var(--bkg-color);
   }
+  h1,p, ul, div{
+    color: var(--text-color);
+  } 
 /* groupal selector */
 .sticky-nav, main, .resume, .resume-container, .network-list, .hobbies, .technologies-list, .portfolio-gallery, .label{
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
 }
-/* .sticky-nav, main, footer{
-    max-width: 70vw;
-} */
+
 .sticky-nav, .network-container{
     padding: 0.5rem;
 }
@@ -236,4 +238,11 @@ footer{
     height: var(--f-w-h);
     opacity: var(--f-o);
     background:var(--f-bck);
+}
+
+
+@media(min-width:720px) {
+    .sticky-nav, main, footer{
+       max-width: 70vw;
+    }
 }
