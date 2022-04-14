@@ -220,6 +220,8 @@ footer{
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
+    background: transparent;
+    border: none;
     cursor: pointer;
 }
 .bulb{
