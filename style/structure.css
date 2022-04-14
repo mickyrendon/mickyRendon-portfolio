@@ -15,9 +15,9 @@
     justify-content: center;
     flex-flow: row wrap;
 }
-.sticky-nav, main, footer{
+/* .sticky-nav, main, footer{
     max-width: 70vw;
-}
+} */
 .sticky-nav, .network-container{
     padding: 0.5rem;
 }
@@ -65,19 +65,6 @@ i{
     width: 100%;
     justify-content: flex-end;
 }
-.theme-btn{
-    /* background varible */
-    width:2.3rem;
-    height: auto;
-    display: flex;
-    /* justify-content: flex-start; */
-}
-.circle-btn{
-    width: 0.8rem;
-    height: 0.8rem;
-    display: block;
-    background-color: white;
-}
 .profile-pic{
     padding: 0;
     width: 12rem;
@@ -114,7 +101,6 @@ h4{
     overflow: hidden;
     border-radius: 2rem;
     cursor: pointer;
-
 }
 .shadow-active{
     height: 100%;
@@ -199,8 +185,56 @@ h4{
 footer{
     height: 5rem;
 }
-
 /* toggle classes */
 .flex-end{
     justify-content: flex-end;
+}
+/* lightblue css */
+.theme-btn{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.bulb{
+    width:2rem;
+    height: 2rem;
+    position: absolute;
+}
+.s-bulb {
+    stroke: var(--s-bulb-color);
+    fill: var(--s-bulb-color);
+    transition: 1500ms;
+  }
+.filament {
+    fill:var(--f-color);
+    stroke:var(--f-color);
+    stroke-width: var(--f-stroke-width);
+    transition:var(--f-transition);
+}
+.g-f-container{
+    width: 4rem;
+    height: 4rem;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.glow, .flare{
+    border-radius: 50%;
+    transition: all 1000ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.glow {
+width: var(--g-w-h);
+height: var(--g-w-h);
+position: absolute;
+opacity:var(--g-o);
+background: var(--g-bck);
+}
+.flare {
+margin-bottom: 1.5vh;
+width: var(--f-w-h);
+height: var(--f-w-h);
+opacity: var(--f-o);
+background:var(--f-bck);
 }
