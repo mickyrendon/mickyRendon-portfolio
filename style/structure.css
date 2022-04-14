@@ -5,10 +5,11 @@
     line-height: 1.5;
   }
   body{
-      display: flex;
-      align-items: center;
-      flex-direction: column;
-      background: var(--bkg-color);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: var(--bkg-color);
+    transition: all 1000ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
   }
   h1,p, ul, div{
     color: var(--text-color);
@@ -25,9 +26,17 @@
 main, footer{
     padding: 0 0.5rem;
 }
-.profile-pic, .resume-text, .hobbies, .technologies-list, .network-list{
+.profile-pic, .network-list{
     margin: 1rem 0;
     padding:0 0.8rem ;
+}
+.resume-text, .hobbies-container, .tech-container{
+    padding: 0.8rem;
+    margin: 0 0 1rem;
+    border-radius: 1rem;
+}
+.resume-text, .hobbies-container, .tech-container{
+    outline: var(--outline);
 }
 .circle-btn, .profile-pic{
     border-radius: 50%;
@@ -70,15 +79,26 @@ i{
 .profile-pic{
     padding: 0;
     width: 12rem;
+    box-shadow: var(--box-shadow);
+    transition: all 1.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 .network-container{
     width: 100%;
 }
 .network-list{
     justify-content: space-evenly;
+    border: none;
+    border-bottom:var(--outline);
 }
 .network-list li{
     width: 2rem;
+}
+.network-icon{
+    width: 2rem;
+    height:2rem;
+    background:var(--network-bck);
+    border-radius: 50%;
+    transition: all 2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 h4{
     width: -moz-available;
@@ -94,7 +114,6 @@ h4{
     width: 100%;
 }
 .proyect-label{
-    /* padding: 1rem; */
     margin: 0.5rem 0;
     height:8vh;
     position: relative;
@@ -102,6 +121,7 @@ h4{
     background-position: center;
     overflow: hidden;
     border-radius: 2rem;
+    outline: var(--label-out);
     cursor: pointer;
 }
 .shadow-active{
