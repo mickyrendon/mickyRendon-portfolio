@@ -191,6 +191,7 @@ footer{
 }
 /* lightblue css */
 .theme-btn{
+    margin: 1rem 1.5rem 0 0;
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
@@ -214,8 +215,6 @@ footer{
     transition:var(--f-transition);
 }
 .g-f-container{
-    width: 4rem;
-    height: 4rem;
     display: flex; 
     justify-content: center;
     align-items: center;
@@ -225,16 +224,16 @@ footer{
     transition: all 1000ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 .glow {
-width: var(--g-w-h);
-height: var(--g-w-h);
-position: absolute;
-opacity:var(--g-o);
-background: var(--g-bck);
+    width: var(--g-w-h);
+    height: var(--g-w-h);
+    position: absolute;
+    opacity:var(--g-o);
+    background: var(--g-bck);
 }
 .flare {
-margin-bottom: 1.5vh;
-width: var(--f-w-h);
-height: var(--f-w-h);
-opacity: var(--f-o);
-background:var(--f-bck);
+    margin-bottom: 1.5vh;
+    width: var(--f-w-h);
+    height: var(--f-w-h);
+    opacity: var(--f-o);
+    background:var(--f-bck);
 }
