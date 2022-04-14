@@ -19,8 +19,7 @@
     justify-content: center;
     flex-flow: row wrap;
 }
-
-.sticky-nav, .network-container{
+.network-container{
     padding: 0.5rem;
 }
 main, footer{
@@ -64,6 +63,7 @@ i{
 }
 /* /////////////// */
 .sticky-nav{
+    padding:0.1rem;
     width: 100%;
     justify-content: flex-end;
 }
@@ -193,7 +193,9 @@ footer{
 }
 /* lightblue css */
 .theme-btn{
-    margin: 1rem 1.5rem 0 0;
+    /* margin: 1rem 1.5rem 0 0; */
+    width: 4rem;
+    height: 4rem;
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
