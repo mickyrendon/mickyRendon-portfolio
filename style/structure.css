@@ -5,10 +5,11 @@
     line-height: 1.5;
   }
   body{
-      display: flex;
-      align-items: center;
-      flex-direction: column;
-      background: var(--bkg-color);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: var(--bkg-color);
+    transition: all 1000ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
   }
   h1,p, ul, div{
     color: var(--text-color);
