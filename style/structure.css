@@ -11,6 +11,19 @@
     background: var(--bkg-color);
     transition: all 1000ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
   }
+  /* attribute selector */
+[href]{
+    max-width: 20vw;
+    color:var(--link-c);
+    pointer-events: all;
+    font-weight: 900;
+}
+[href]:hover{
+    color: red;
+}
+  img{
+    filter: var(--image-contrast);  
+  }
   h1,p, ul, div{
     color: var(--text-color);
   } 
@@ -33,10 +46,13 @@ main, footer{
 .resume-text, .hobbies-container, .tech-container{
     padding: 0.8rem;
     margin: 0 0 1rem;
+    /* background: var(--bkg-components); */
     border-radius: 1rem;
+    transition: all 1000ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 .resume-text, .hobbies-container, .tech-container{
     outline: var(--outline);
+    box-shadow: var(--outline-sh);
 }
 .circle-btn, .profile-pic{
     border-radius: 50%;
@@ -57,8 +73,9 @@ li{
     text-align: justify;
     align-self: center;
 }
-i{
+i, b{
     height: auto;
+    color:#ebeaeb;
 }
 .icon-container, .info-container{
     pointer-events: none;
@@ -88,7 +105,6 @@ i{
 .network-list{
     justify-content: space-evenly;
     border: none;
-    border-bottom:var(--outline);
 }
 .network-list li{
     width: 2rem;
@@ -121,7 +137,8 @@ h4{
     background-position: center;
     overflow: hidden;
     border-radius: 2rem;
-    outline: var(--label-out);
+    box-shadow: var(--gallery-bx-sh);
+    /* outline: var(--label-out); */
     cursor: pointer;
 }
 .shadow-active{
@@ -166,9 +183,12 @@ h4{
 .guifos-logo, .podcast-logo, .losTilos-logo, .budget-icon, .bensof-logo, .watch-logo{
     width: 2.5rem;
     height: 2.5rem;
-    border: 1px solid rgba(255, 255, 255, 0.912);
+    border: 1px solid #faf9fb;
+    box-shadow: var(--gallery-bx-sh);
     border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.912);
+    background-color:#faf9fb;
+    outline: none;
+    border: none;
 }
 /* backgrounds proyects -- to fixe path*/
 .guifos{
@@ -194,15 +214,7 @@ h4{
     flex-direction: column;
 }
 
-/* attribute selector */
-[href]{
-    max-width: 20vw;
-    color: tomato;
-    pointer-events: all;
-}
-[href]:hover{
-    color: red;
-}
+
 /* /////////////////// */
 footer{
     height: 5rem;

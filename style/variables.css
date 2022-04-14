@@ -2,16 +2,26 @@
 @media (prefers-color-scheme: dark) {
     /* defaults to dark theme */
     body {
-        --text-color: #eee;
-        --bkg-color: #121212;
+        --text-color: #ebeaeb;
+        --bkg-color: #1d1c1d;
+        /* a tag color */
+        --link-c:rgba(182, 97, 232, 0.93);/* rgba(255,223,67,1); */
+        /* background components */
+        --bkg-components:#3e3c3e;
+        /* filter */
+        --image-contrast: brightness(.8) contrast(1.2);
         /*profile pic */
-        --box-shadow: 0px 0px 6px 0.1px rgba(255,223,67,1);
+        --box-shadow: 1px 0px 4px 0px rgba(255,223,67,1);
+        /* box shadow gallery */
+        --gallery-bx-sh:0px 0px 2px 0px rgba(255,223,67,1);
         /* shadow inset */
         /* --shadow-inset: 0px -10px 6px -10px rgba(255,223,67,1) inset; */
         /* network-icons */
         --network-bck:-webkit-radial-gradient(rgba(255,223,67,1), rgba(255,223,67,0) 70%);
         /* outline */
         --outline: 1px solid rgba(119, 52, 158, 0.93);
+        /* outline shadow */
+        --outline-sh:0px 0px 3px 0px rgba(119, 52, 158, 1);
         /* gallery label outline */
         --label-out:1px solid rgba(74, 163, 198, 0.93);
         /* light-bulb or theme btn styles */
@@ -34,16 +44,26 @@
         --f-bck:rgba(255,223,67,1);
     }
     body.light-theme {
-        --text-color: #222;
-        --bkg-color: #fff;
+        --text-color:#3e3c3e;
+        --bkg-color: #faf9fb;
+        /* a tag color */
+        --link-c:rgba(182, 97, 232, 0.93);
+        /* background components */
+        --bkg-components:rgba(235, 232, 232, 0.823);
+        /* filter */
+        --image-contrast: brightness(1) contrast(1);
         /*profile pic */
         --box-shadow: 0px 0px 6px 0.1px rgb(53, 52, 49);
+        /* box shadow gallery */
+        --gallery-bx-sh:0px 0px 6px 0.1px rgb(53, 52, 49);
         /* shadow inset */
         /* --shadow-inset: 0px -1px 9px 0px rgb(53, 52, 49) inset; */
         /* network bck */
         --network-bck:-webkit-radial-gradient(rgba(255,223,67,1), rgba(255,223,67,0) 0%);
          /* outline */
         --outline: 1px solid rgba(123, 120, 120, 0.93);
+        /* outline shadow */
+        --outline-sh:0px 0px 2px 0.1px rgb(53, 52, 49);
         /* gallery label outline */
         --label-out:1px solid rgba(6, 6, 6, 0.93);
         /* light-bulb or theme btn styles */
