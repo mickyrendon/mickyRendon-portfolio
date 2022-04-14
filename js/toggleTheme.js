@@ -2,7 +2,7 @@ const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)');
 const currentTheme = localStorage.getItem('theme');
 const themeBtn = document.querySelector('.theme-btn');
       themeBtn.addEventListener('click', toggleTheme, true);
-      themeBtn.addEventListener('touch', toggleTheme, true);
+      // themeBtn.addEventListener('touch', toggleTheme, true);
 // const glow = document.querySelector('.glow');
 // const flare = document.querySelector('.flare');
 // const bulb = document.querySelector('.bulb');
