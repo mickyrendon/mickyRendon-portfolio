@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "micky rendon portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://mickyrendon.github.io/mickyRendon-portfolio/"
+  },
+  "keywords": [
+    "mickyrendon",
+    "portfolio"
+  ],
+  "author": "micky\\ <mickyrendon42@gmail.com\\>",
+  "license": "ISC",
+  "dependencies": {
+    "@capacitor/core": "^3.4.3",
+    "@robingenz/capacitor-android-dark-mode-support": "^1.0.1"
+  }
+}
