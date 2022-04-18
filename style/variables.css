@@ -4,6 +4,7 @@
     body {
         --text-color: #ebeaeb;
         --bkg-color: #1d1c1d;
+        --all-1s-cubic-bz:all 1000ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
         /* a tag color */
         --link-c:rgba(182, 97, 232, 0.93);/* rgba(255,223,67,1); */
         /* background components */
@@ -46,6 +47,7 @@
     body.light-theme {
         --text-color:#3e3c3e;
         --bkg-color: #faf9fb;
+        --all-1s-cubic-bz:all 1000ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
         /* a tag color */
         --link-c:rgba(182, 97, 232, 0.93);
         /* background components */
