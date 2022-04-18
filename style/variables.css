@@ -1,3 +1,7 @@
+
+:root{
+    color-scheme: light dark;
+}
 /* dark theme */
 @media (prefers-color-scheme: dark) {
     /* defaults to dark theme */
