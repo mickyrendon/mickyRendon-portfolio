@@ -6,7 +6,6 @@ const themeBtn = document.querySelector('.theme-btn');
 
 if (currentTheme == 'dark') {
     document.body.classList.toggle('dark-theme');
-    // themeBtn.classList.toggle('flex-end');
     console.log('locastorage dark');
 
 } else if (currentTheme == 'light') {
@@ -17,18 +16,12 @@ if (currentTheme == 'dark') {
 function toggleTheme() {
   if (prefersDarkScheme.matches) {
     document.body.classList.toggle('light-theme');
-    // glow.classList.toggle('glow-night'); 
-    // flare.classList.toggle('flex-end'); 
-    // bulb.classList.toggle('flex-end'); 
-    // sBulb.classList.toggle('flex-end'); 
-    // filament.classList.toggle('flex-end'); 
 
     var theme = document.body.classList.contains('light-theme')
     ? 'light'
     : 'dark';
   } else {
     document.body.classList.toggle('dark-theme');
-    // this.classList.toggle('flex-start');
 
     var theme = document.body.classList.contains('dark-theme')
     ? 'dark'
