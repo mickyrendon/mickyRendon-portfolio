@@ -1,9 +1,13 @@
-const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+const prefersDarkScheme = window.matchMedia('(prefers-color-scheme:dark)');
 const currentTheme = localStorage.getItem('theme');
 const themeBtn = document.querySelector('.theme-btn');
-      themeBtn.addEventListener('click', toggleTheme, false);
-      themeBtn.addEventListener('touch', toggleTheme, false);
-
+themeBtn.addEventListener('click', toggleTheme, true);
+themeBtn.addEventListener('touch', toggleTheme, true);
+// API To choose between the two modes
+//   if (WebViewFeature.isFeatureSupported(WebViewFeature.FORCE_DARK_STRATEGY)) {
+//     WebSettingsCompat.setForceDarkStrategy(dark);
+// }
+    
 if (currentTheme == 'dark') {
     document.body.classList.toggle('dark-theme');
     console.log('locastorage dark');
