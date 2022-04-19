@@ -230,24 +230,28 @@ style=" fill:#000000;"><path fill="#5d4037" d="M42,17.3C42,37.8,24,44,24,44S6,37
                   </li> -->
                </ul>
             </article>
-            <article class="form">
-               <form action="">
-                  <label for=""></label>
-                  <input id="" type="text" placeholder="Name" required>
-                  <label for=""></label>
-                  <input id="" type="email" placeholder="email" required>
-                  <label for=""></label>
-                  <textarea name="" id="" rows="5" placeholder="Let your email" required></textarea>
-                  <input class="title-link" type="submit" value="Send">
+            <article class="form-container">
+               <form method="post" action="https://formsubmit.co/mickyrendon42@gmail.com" enctype="multipart/form-data">
+                  <label for="name"></label>
+                  <input id="name" type="text"name="Name" placeholder="Name" required>
+                  <label for="email"></label>
+                  <input id="email" type="email" name="Email" placeholder="email" required>
+                  <label for="textarea"></label>
+                  <textarea id="textarea" rows="5" name="Content" placeholder="Let your text" required></textarea>
+                  <input type="text" name="_honey" style="display:none">
+                  <div class="submit-btn-container">
+                     <input class="title-link submit" type="submit" value="Send">
+                     <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
+                  </div>
                </form>
             </article>
         </div>
         <section class="portfolio-gallery">
            <h1>SOME PROYECTS</h1>
             <div class="proyects-container">
-               <div class="proyect-label podcast">
-                  <div class="label">
-                     <div class="icon-container">
+               <div class="proyect-label active podcast">
+                  <div class="label shadow-active column">
+                     <div class="icon-container icon-active">
                         <img class="podcast-logo" src="./assets/profilePic/gallery/logo.svg" alt="PaleBlueDotPodcast-logo">
                      </div>
                      <div class="info-container">  
@@ -335,9 +339,9 @@ style=" fill:#000000;"><path fill="#5d4037" d="M42,17.3C42,37.8,24,44,24,44S6,37
                      </div>
                   </div>
                </div>
-               <div class="proyect-label active guifos">
-                  <div class="label shadow-active column">
-                     <div class="icon-container icon-active">
+               <div class="proyect-label guifos">
+                  <div class="label">
+                     <div class="icon-container">
                         <img class="guifos-logo" src="./assets/profilePic/gallery/ProyectsIcons/gifOF_logo.png" alt="guifos-logo">
                      </div>
                      <div class="info-container">
@@ -361,5 +365,6 @@ style=" fill:#000000;"><path fill="#5d4037" d="M42,17.3C42,37.8,24,44,24,44S6,37
     </footer>
     <script src="./js/toggleTheme.js"></script>
     <script src="./js/gallery.js"></script>
+    <script src="./js/submitBtn.js"></script>
 </body>
 </html>

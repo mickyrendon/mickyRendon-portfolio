@@ -48,6 +48,8 @@
     --f-bck:rgba(255,223,67,1);
     /* code icon btn */
     --c-i-btn:rgba(235, 232, 232, 0.823);
+    /* inputs bck */
+    --bck-input:#3e3c3e45;
 }
 .light-theme{
     --text-color:#3e3c3e;
