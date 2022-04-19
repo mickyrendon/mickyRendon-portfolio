@@ -315,7 +315,7 @@ h1{
 }
 .title-link{
     margin: 0;
-    width: 8rem;
+    width: 6.5rem;
     height: 3rem;
     display: flex;
     background: var(--link-c);
@@ -328,11 +328,16 @@ h1{
 }
 .secondary-btn{
     margin-left: 2rem;
+    flex-direction: row-reverse;
+    justify-content:flex-end;
     outline:var(--outline);
     background: #716e6e5c;
 }
 .secondary-btn:hover{
     color: rgb(183, 97, 232);
+}
+.icon-code{
+    fill: var(--c-i-btn);
 }
 
 

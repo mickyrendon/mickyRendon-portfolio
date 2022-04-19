@@ -46,6 +46,8 @@
     --f-o:0.2;
     /* f-bck */
     --f-bck:rgba(255,223,67,1);
+    /* code icon btn */
+    --c-i-btn:rgba(235, 232, 232, 0.823);
 }
 .light-theme{
     --text-color:#3e3c3e;
@@ -89,6 +91,7 @@
     --f-o:0.5;
     /* flare-bck */
     --f-bck:rgba(255,223,67,0);
-
+    /* code icon btn */
+    --c-i-btn:rgba(235, 232, 232, 0.823);
 }
 /* } */
