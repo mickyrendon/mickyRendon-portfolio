@@ -1,6 +1,7 @@
 /* universal selector */
 * {
-    font-family: "Helvetica Now", Arial, sans-serif;
+    /* font-family: "Helvetica Now", Arial, sans-serif; */
+    font-family: 'Nunito', sans-serif;
     font-size: 1rem;
     word-spacing:0.4ch;
     line-height: 1.7rem;
@@ -28,7 +29,7 @@ body, main,.resume-text, .academic-container, .tech-container{
     animation-duration: 0.5s;
 }
 a, b, h1, h4, .submit,.academic{
-    font-family: roboto, monospace, sans-serif;
+    font-family: 'Roboto Mono', monospace;
 }
   img{
     filter: var(--image-contrast);  
