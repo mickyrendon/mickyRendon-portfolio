@@ -94,13 +94,17 @@ li{
 }
 .academic{
     height: auto;
-    font-size: 1.04rem;
+    font-size: 0.9rem;
     font-weight: 700;
 }
 .academic li{
     margin: 0 0 0 .5rem;
     width: 100%;
     font-weight: 500;
+}
+.academic li:first-child{
+    margin-left: 0;
+    font-weight: bold;
 }
 .learning{
     justify-content: flex-start;
