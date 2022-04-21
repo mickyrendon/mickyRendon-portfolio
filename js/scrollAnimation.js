@@ -1,6 +1,4 @@
-
 window.addEventListener("scroll",()=>{
-    var bodyH = document.body.offsetHeight;
     const   a=document.querySelector(".background-waves"),
             i=document.querySelector(".theme-btn"),
             e=document.querySelector(".resume-text"),
@@ -10,7 +8,6 @@ window.addEventListener("scroll",()=>{
             h=document.querySelector(".portfolio-gallery"),
             l=document.querySelector(".background-waves-btm"),
             s=[a,i,e,t,n,h,f,l];
-    l.style.top = `${bodyH}px`;
     s.forEach((a,e)=>{
         a.classList.add("opacity");
         const t=window.innerHeight/1.1,
