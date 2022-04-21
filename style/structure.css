@@ -33,10 +33,7 @@ portfolio-gallery,
 }
 /* background waves bottom */
 .background-waves-btm{
-    position: relative;
-    /* max-width: 100%; */
     position: absolute;
-    top: 2860px;
 }
   /* attribute selector */
 [href], .submit{
@@ -497,7 +494,7 @@ footer{
         top: 50vh;
     }
     .background-waves-btm{
-        bottom:-280vh;
+        /* top: 2051px;; */
     }
 }
 @media (min-width:1100px){
@@ -507,15 +504,15 @@ footer{
      .desktop-content{
         display: flex;
     }
-    .background-waves-btm{
+    /* .background-waves-btm{
         bottom:-160vh;
-    }
+    } */
 }
 @media (min-width:1300px){
     .icon-container{
         left: -1vw;
      }
-     .background-waves-btm{
+     /* .background-waves-btm{
         /* bottom:-80vh; */
-    }
+    /* }  */
 }
