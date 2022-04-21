@@ -52,6 +52,8 @@
     --bck-input:#3e3c3e45;
     /* express-icon */
     --express-icon:rgba(235, 232, 232, 0.823);
+    /* background waves fill */
+    --bck-wv-f:#565456;
 }
 .light-theme{
     --text-color:#3e3c3e;
@@ -99,5 +101,7 @@
     --c-i-btn:rgba(235, 232, 232, 0.823);
     /* express-icon */
     /* --express-icon:rgba(255,223,67,0); */
+    /* background waves fill */
+    --bck-wv-f:#237bb1;
 }
 /* } */
