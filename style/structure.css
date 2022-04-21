@@ -15,6 +15,29 @@
 body, main,.resume-text, .academic-container, .tech-container{
     transition: var(--all-1s-cubic-bz);
 } 
+.background-waves,
+.theme-btn,
+.resume-text,
+.academic-container,
+.tech-container,
+portfolio-gallery,
+.form-container,
+.background-waves-btm{
+    animation-duration: 1.5s;
+}
+.background-waves, .background-waves-btm{
+    width: 100%;
+    position: absolute;
+    fill: var(--bck-wv-f);
+    transition: var(--all-1s-cubic-bz);
+}
+/* background waves bottom */
+.background-waves-btm{
+    position: relative;
+    /* max-width: 100%; */
+    position: absolute;
+    top: 2860px;
+}
   /* attribute selector */
 [href], .submit{
     max-width: 50vw;
@@ -115,11 +138,11 @@ li{
 .express-icon{
     fill: var(--express-icon);
 }
-i, b{
+.info-container p, b{
     height: auto;
     color:#ebeaeb;
 }
-i{
+.info-container p{
     margin:0 0 1rem;
     font-size: 0.95rem;
 }
@@ -307,7 +330,7 @@ h1{
 }
 /* //////////// */
 /* setting individual logo */
-.guifos-logo, .podcast-logo, .losTilos-logo, .budget-icon, .bensof-logo, .watch-logo{
+.guifos-logo, .podcast-logo, .losTilos-logo, .budget-icon, .bensof-logo, .p-list-logo{
     width: 2.5rem;
     height: 2.5rem;
     border: 1px solid #faf9fb;
@@ -333,8 +356,8 @@ h1{
 .bensof{
     background-image: url(../assets/profilePic/gallery/proyectsBackgrounds/bensof.png);
 }
-.watch{
-    background-image: url(../assets/profilePic/gallery/proyectsBackgrounds/clock.png);
+.p-list{
+    background-image: url(../assets/profilePic/gallery/proyectsBackgrounds/people-listing.png);
 }
 .info-container, .buttons-container{
     width: 100%;
@@ -398,6 +421,7 @@ h1{
 /* /////////////////// */
 /* toggle classes */
 footer{
+    margin-top: 2rem;
     width: 100%;
 }
 .flex-end{
@@ -472,6 +496,9 @@ footer{
      .icon-active{
         top: 50vh;
     }
+    .background-waves-btm{
+        bottom:-280vh;
+    }
 }
 @media (min-width:1100px){
     .icon-container{
@@ -480,9 +507,15 @@ footer{
      .desktop-content{
         display: flex;
     }
+    .background-waves-btm{
+        bottom:-160vh;
+    }
 }
 @media (min-width:1300px){
     .icon-container{
         left: -1vw;
      }
+     .background-waves-btm{
+        /* bottom:-80vh; */
+    }
 }
