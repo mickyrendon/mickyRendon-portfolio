@@ -319,8 +319,8 @@ Board Tile Entity
       right: 0
     }
     this.updateDimensions();
-  };
-
+  }
+  
   g.BoardTile.prototype.update = function() {
     for( var k in this.classes ) {
       if( this.classes[ k ] ) {
@@ -370,7 +370,7 @@ Board Tile Entity
     this.elem.style.height = this.h + 'px';
   };
 
-  g.BoardTile.prototype.render = function() {
+    g.BoardTile.prototype.render = function() {
     var classString = '';
     for( var k in this.classes ) {
       if( this.classes[ k ] ) {
