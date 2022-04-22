@@ -6,8 +6,8 @@
     word-spacing:0.4ch;
     line-height: 1.7rem;
 }
-
-#loading {
+/* only works with onload.js */
+/* #loading {
     display: flex;
     position: fixed;
     z-index: 100;
@@ -17,7 +17,7 @@
     background-image: url("https://i.stack.imgur.com/MnyxU.gif");
     background-repeat: no-repeat;
     background-position: center;
-}
+} */
 body{
     display: flex;
     align-items: center;
@@ -45,7 +45,8 @@ portfolio-gallery,
 }
 /* background waves bottom */
 .background-waves-btm{
-    position: absolute;
+    /* position: absolute; */
+    position: relative;
 }
   /* attribute selector */
 [href], .submit{
@@ -445,8 +446,11 @@ footer{
     }
 }
 @media(min-width:920px){
-    body{
+    /* body{
         margin: 0 auto;
+        max-width: 90vw;
+    } */
+    .sticky-nav, main, footer{
         max-width: 90vw;
     }
     .resume, .network-list, footer{
@@ -462,9 +466,9 @@ footer{
     /* .academic-container, .tech-container{
         margin
     } */
-    .sticky-nav, main, footer{
+    /* .sticky-nav, main, footer{
         max-width: 100%;
-     }
+     } */
      .network-container{
          flex-wrap: nowrap;
          justify-content: space-evenly;
@@ -504,9 +508,6 @@ footer{
      }
      .icon-active{
         top: 50vh;
-    }
-    .background-waves-btm{
-        /* top: 2051px;; */
     }
 }
 @media (min-width:1100px){
