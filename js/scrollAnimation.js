@@ -19,4 +19,7 @@ window.addEventListener("scroll",()=>{
         n<=t&&4===l?a.classList.add("animate__animated","animate__fadeInRight"):(a.classList.remove("animate__animated","animate__fadeInRight"),
         n<=t&&5===l?a.classList.add("animate__animated","animate__fadeIn"):(a.classList.remove("animate__animated","animate__fadeIn"),
         n<=t&&6===l?a.classList.add("animate__animated","animate__fadeInDown"):a.classList.remove("animate__animated","animate__fadeInDown"),
-        n<=t&&7===l?a.classList.add("animate__animated","animate__fadeInUp"):(a.classList.remove("animate__animated","animate__fadeInUp"))))))),a})});l
+        n<=t&&7===l?a.classList.add("animate__animated","animate__fadeInUp"):(a.classList.remove("animate__animated","animate__fadeInUp"))))))),
+        a
+    })
+});
