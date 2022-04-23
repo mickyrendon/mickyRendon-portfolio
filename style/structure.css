@@ -42,6 +42,7 @@ portfolio-gallery,
     position: absolute;
     fill: var(--bck-wv-f);
     transition: var(--all-1s-cubic-bz);
+    /* display: none; */
 }
 /* background waves bottom */
 .background-waves-btm{
@@ -61,7 +62,7 @@ portfolio-gallery,
     animation: pulse;
     animation-duration: 0.5s;
 }
-a, b, h1, h4, .submit,.academic{
+a, b, h1, h4, .submit,.academic, .secondary-btn {
     font-family: 'Roboto Mono', monospace;
 }
   img{
@@ -174,8 +175,27 @@ b{
 .sticky-nav{
     padding:0.1rem;
     width: 100%;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
+    /* justify-content: flex-end; */
 }
+/* language btn */
+.language-container{
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.language{
+    width:2.55rem;
+    height: 2rem;
+    background: var(--bkg-color);
+    color: var(--text-color);
+    border: var(--outline);
+    border-radius: 0.25rem;
+}
+
 /* lightblue css */
 .theme-btn{
     /* margin: 1rem 1.5rem 0 0; */
