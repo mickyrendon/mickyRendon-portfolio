@@ -55,7 +55,7 @@ function langScript(){
 
     // resume text
     const resumetextEs = new ClassLayout(
-        `Hola!, 👋 bienvenido a mi portafolio! soy Miguel Rendón, 'micky'. Soy un desarrollador web Front end estudiando para ser full stack. Disfruto construir soluciones digitales a personas, especialmente cuando ellos tienen emprendimientos o microemprendimientos que les permita tener un lugar en la web.,
+        `Hola!, 👋 bienvenido a mi portafolio! soy Miguel Rendón, 'micky'. Soy un desarrollador web Front end estudiando para ser full stack. Disfruto construir soluciones digitales a personas, especialmente cuando ellos tienen emprendimientos o microemprendimientos que les permita tener un lugar en la web.
         Soy un chico Colombiano 🇨🇴 que ahora vive en Chile 🇨🇱, me gusta viajar y por esa razón decidí estudiar esta carrera, prefiero trabajar remotamente, me gusta la fotografía y actualmente estoy aprendiendo a tocar el ukelele.`
     );
     const resumetextEn = new ClassLayout(
@@ -70,11 +70,14 @@ function langScript(){
     const currentlyEs = new ClassLayout(`Actualmente`);
     const currentlyEn = new ClassLayout(`Currently`);
     // currently li
-    const oBEs = new ClassLayout(`Open Bootcamp`);
-    const oBEn = new ClassLayout(`Open Bootcamp`);
+    const oBEs = new ClassLayout(`Open Bootcamp, Front end developer`);
+    const oBEn = new ClassLayout(`Open Bootcamp, Front end developer`);
     // currently li
-    const udemyEs = new ClassLayout(`Udemy, uiversidad JavaScript por (Ubaldo Acosta)`);
+    const udemyEs = new ClassLayout(`Udemy, universidad JavaScript por (Ubaldo Acosta)`);
     const udemyEn = new ClassLayout(`Udemy, JavaScript university by (Ubaldo Acosta)`);
+    // currently li
+    const platziEs = new ClassLayout(`Platzi, diseño de interfaces (UI)`);
+    const platziEn = new ClassLayout(`Platzi, User Interface (UI)`);
 
     // acamica li
     const acamicaEs = new ClassLayout(`Acamica 2020`);
@@ -217,6 +220,7 @@ function langScript(){
         currentlySection.children[0].innerHTML = currentlyEs.title;
         currentlySection.children[1].innerHTML = oBEs.title;
         currentlySection.children[2].innerHTML = udemyEs.title;
+        currentlySection.children[3].innerHTML = platziEs.title;
         // acamica section
         acamicaSection.children[0].innerHTML = acamicaEs.title;
         acamicaSection.children[1].innerHTML = fswdEs.title;
@@ -280,6 +284,7 @@ function langScript(){
         currentlySection.children[0].innerHTML = currentlyEn.title;
         currentlySection.children[1].innerHTML = oBEn.title;
         currentlySection.children[2].innerHTML = udemyEn.title;
+        currentlySection.children[3].innerHTML = platziEn.title;
         // acamica section
         acamicaSection.children[0].innerHTML = acamicaEn.title;
         acamicaSection.children[1].innerHTML = fswdEn.title;
