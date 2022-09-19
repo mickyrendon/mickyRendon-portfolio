@@ -70,11 +70,13 @@ function langScript(){
     const currentlyEs = new ClassLayout(`Actualmente`);
     const currentlyEn = new ClassLayout(`Currently`);
     // currently li
-    const oBEs = new ClassLayout(`Open Bootcamp, Front end developer`);
-    const oBEn = new ClassLayout(`Open Bootcamp, Front end developer`);
+    const oBEs = new ClassLayout(`Open Bootcamp, React`);
+    const oBEn = new ClassLayout(`Open Bootcamp, React`);
     // currently li
-    const udemyEs = new ClassLayout(`Udemy, universidad JavaScript por (Ubaldo Acosta)`);
-    const udemyEn = new ClassLayout(`Udemy, JavaScript university by (Ubaldo Acosta)`);
+    // const udemyEs = new ClassLayout(`Udemy, universidad JavaScript por (Ubaldo Acosta)`);
+    // const udemyEn = new ClassLayout(`Udemy, JavaScript university by (Ubaldo Acosta)`);
+    const udemyEs = new ClassLayout(`Platzi, full stack developer con JavaScript`);
+    const udemyEn = new ClassLayout(`Platzi, full stack developer with JavaScript`);
     // currently li
     const platziEs = new ClassLayout(`Platzi, diseño de interfaces (UI)`);
     const platziEn = new ClassLayout(`Platzi, User Interface (UI)`);
