@@ -56,11 +56,16 @@ portfolio-gallery,
     pointer-events: all;
     font-weight: 900;
 }
-[href]:hover, .submit:hover{
+.submit:hover{
     /* color: rgb(183, 97, 232); */
     /* box-shadow: var(--gallery-bx-sh); */
     animation: pulse;
     animation-duration: 0.5s;
+}
+.network-list > li > a:hover > svg{
+    transform: scale(1.2);
+    animation: ease-in;
+    animation-duration: 0.3s;
 }
 a, b, h1, h4, .submit,.academic, .secondary-btn {
     font-family: 'Roboto Mono', monospace;
@@ -271,7 +276,7 @@ b{
     height:2rem;
     background:var(--network-bck);
     border-radius: 50%;
-    transition: var(--all-1s-cubic-bz);
+    /* transition: var(--all-1s-cubic-bz); */
 }
 .network-icon:hover{
     animation:pulse;
