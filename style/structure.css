@@ -388,6 +388,12 @@ h1{
 .p-list{
     background-image: url(../assets/profilePic/gallery/proyectsBackgrounds/people-listing.png);
 }
+.twitter{
+    background-image: url(../assets/profilePic/gallery/proyectsBackgrounds/twitter.png);
+}
+.instagram{
+    background-image: url(../assets/profilePic/gallery/proyectsBackgrounds/instagram.png);
+}
 .info-container, .buttons-container{
     width: 100%;
     display: flex;

@@ -45,6 +45,8 @@ function langScript(){
     const bgt = document.querySelector('.bgt');
     const pList = document.querySelector('.p-lst');
     const gfs = document.querySelector('.gfs');
+    const insta = document.querySelector('.insta');
+    const twtr = document.querySelector('.twtr');
     /* ///////////////////////////////// */
     // form
     const formH1 = document.querySelector('.form-title');
@@ -173,17 +175,27 @@ function langScript(){
     const budgetEn = new ClassLayout(
         `A simple app to manage personal budget, let you to add and view incomes and expenses with an updated total panel. I worked with classes in JS, HTML and CSS.`
     );
+    // // card 5 title listint people
+    // const instaEs = new ClassLayout(`Listado de personas`);
+    // const instaEn = new ClassLayout(`People listing`);
+    // // card 5 description
+    // const instagramEs = new ClassLayout(
+    //     `Ésta app le permite agregar nombres a una lista desde un campo de texto, contiene unas pocas validaciones como ingresar solo texto, sin numeros ni simbolos.
+    //     Ésto fue hecho con clases, POO(Programacion Orientada a Objetos), tecnicas de UX, HTML, CSS, JS y la API de localStorage.`
+    // );
+    // const instagramEn = new ClassLayout(
+    //     `This app let you add names to the list from inputs text, it containes a few validations as enter only text, not number and symbols.
+    //     It was made with classes, OOP(object oriented programming), UX techniques, HTML, CSS, JS and localStorage API.`
+    // );
     // card 5 title
-    const pListEs = new ClassLayout(`Listado de personas`);
-    const pListEn = new ClassLayout(`People listing`);
+    const instaEs = new ClassLayout(`Clon de Instagram`);
+    const instaEn = new ClassLayout(`Instagram clone`);
     // card 5 description
-    const pListingEs = new ClassLayout(
-        `Ésta app le permite agregar nombres a una lista desde un campo de texto, contiene unas pocas validaciones como ingresar solo texto, sin numeros ni simbolos.
-        Ésto fue hecho con clases, POO(Programacion Orientada a Objetos), tecnicas de UX, HTML, CSS, JS y la API de localStorage.`
+    const instagramEs = new ClassLayout(
+        `Clon de Instagram del Platzi challenge portfolio web creado con HTML, CSS y un poco de JS con diseño responsive.`
     );
-    const pListingEn = new ClassLayout(
-        `This app let you add names to the list from inputs text, it containes a few validations as enter only text, not number and symbols.
-        It was made with classes, OOP(object oriented programming), UX techniques, HTML, CSS, JS and localStorage API.`
+    const instagramEn = new ClassLayout(
+        `Instagram Clone for Platzi Challenge web portfolio created with HTML, CSS and a bit of JS with responsive design.`
     );
     // card 6 title
     const gfsEs = new ClassLayout(`Guifos`);
@@ -194,6 +206,16 @@ function langScript(){
     );
     const guifosEn = new ClassLayout(
         `Desktop page to create guifs, integrated with an external API (giphy). The purpose was to do a functional page, that allows to search, create and post guifs.`
+    );
+    // card 7 title
+    const twtrEs = new ClassLayout(`Clon de Twitter`);
+    const twtrEn = new ClassLayout(`Twitter clone`);         
+    // card 7 description
+    const twitterEs = new ClassLayout(
+        `Clon de Twitter del Platzi challenge portfolio web creado con HTML, CSS y un poco de JS con diseño responsive.`
+    );
+    const twitterEn = new ClassLayout(
+        `Twitter Clone for Platzi Challenge web portfolio created with HTML, CSS and a bit of JS with responsive design.`
     );
     /* /////////// */
     // form
@@ -263,15 +285,20 @@ function langScript(){
         bgt.children[2].children[0].innerHTML = demoEs.title ;
         bgt.children[2].children[1].children[0].innerHTML = codeEs.title;
         // card 5
-        pList.children[0].innerHTML = pListEs.title;
-        pList.children[1].innerHTML = pListingEs.title;
-        pList.children[2].children[0].innerHTML = demoEs.title ;
-        pList.children[2].children[1].children[0].innerHTML = codeEs.title;
+        insta.children[0].innerHTML = instaEs.title;
+        insta.children[1].innerHTML = instagramEs.title;
+        insta.children[2].children[0].innerHTML = demoEs.title ;
+        insta.children[2].children[1].children[0].innerHTML = codeEs.title;
         // card 6
-        gfs.children[0].innerHTML = gfsEs.title;
-        gfs.children[1].innerHTML = guifosEs.title;
-        gfs.children[2].children[0].innerHTML = demoEs.title ;
-        gfs.children[2].children[1].children[0].innerHTML = codeEs.title;
+        // gfs.children[0].innerHTML = gfsEs.title;
+        // gfs.children[1].innerHTML = guifosEs.title;
+        // gfs.children[2].children[0].innerHTML = demoEs.title ;
+        // gfs.children[2].children[1].children[0].innerHTML = codeEs.title;
+        // card 7
+        twtr.children[0].innerHTML = twtrEs.title;
+        twtr.children[1].innerHTML = twitterEs.title;
+        twtr.children[2].children[0].innerHTML = demoEs.title ;
+        twtr.children[2].children[1].children[0].innerHTML = codeEs.title;
         // form
         formH1.innerHTML = fH1Es.title;
         iName.placeholder = iNaEs.title;
@@ -327,15 +354,20 @@ function langScript(){
         bgt.children[2].children[0].innerHTML = demoEn.title ;
         bgt.children[2].children[1].children[0].innerHTML = codeEn.title ;
         // card 5
-        pList.children[0].innerHTML = pListEn.title;
-        pList.children[1].innerHTML = pListingEn.title;
-        pList.children[2].children[0].innerHTML = demoEn.title ;
-        pList.children[2].children[1].children[0].innerHTML = codeEn.title ;
+        insta.children[0].innerHTML = instaEn.title;
+        insta.children[1].innerHTML = instagramEn.title;
+        insta.children[2].children[0].innerHTML = demoEn.title ;
+        insta.children[2].children[1].children[0].innerHTML = codeEn.title ;
         // card 6
-        gfs.children[0].innerHTML = gfsEn.title;
-        gfs.children[1].innerHTML = guifosEn.title;
-        gfs.children[2].children[0].innerHTML = demoEn.title ;
-        gfs.children[2].children[1].children[0].innerHTML = codeEn.title ;
+        // gfs.children[0].innerHTML = gfsEn.title;
+        // gfs.children[1].innerHTML = guifosEn.title;
+        // gfs.children[2].children[0].innerHTML = demoEn.title ;
+        // gfs.children[2].children[1].children[0].innerHTML = codeEn.title ;
+        // card 6
+        twtr.children[0].innerHTML = twtrEn.title;
+        twtr.children[1].innerHTML = twitterEn.title;
+        twtr.children[2].children[0].innerHTML = demoEn.title ;
+        twtr.children[2].children[1].children[0].innerHTML = codeEn.title ;
         // form
         formH1.innerHTML = fH1En.title;
         iName.placeholder.placeholder = iNaEn.title;
