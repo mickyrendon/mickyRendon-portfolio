@@ -136,7 +136,7 @@
     <main>
         <div class="resume">
            <nav class="network-container">
-               <img  class="profile-pic animate__animated animate__zoomIn" src="./assets/profilePic/profilePic.jpg" alt="profilePic" title="profile pic">
+               <img  class="profile-pic animate__animated animate__zoomIn" src="./assets/profilePic/profilePic.png" alt="profilePic" title="profile pic">
                <ul class="network-list">
                   <li>
                       <a href="https://github.com/mickyrendon" title="link to github">
@@ -209,7 +209,7 @@
                          </div>
                       </div>
                    </div>
-                   <div class="proyect-label bensof">
+                   <!-- <div class="proyect-label bensof">
                       <div class="label">
                          <div class="icon-container">
                             <img class="bensof-logo" src="./assets/profilePic/gallery/ProyectsIcons/bensof-web.png" alt="bensof-logo">
@@ -228,7 +228,7 @@
                             </div>
                          </div>
                       </div>
-                   </div>
+                   </div> -->
                    <div class="proyect-label budget">
                        <div class="label">
                          <div class="icon-container">
@@ -461,7 +461,7 @@
       <!-- animate__animated animate__fadeInUp -->
       <article class="form-container js-scroll fade-in-bottom">
          <h1 class="form-title"></h1>
-      <form method="post" action="https://formsubmit.co/mickyrendon42@gmail.com" enctype="multipart/form-data">
+      <form method="post" action="https://formsubmit.co/mickyrendon42@gmail.com" name="f-contact" enctype="multipart/form-data">
          <label for="name"></label>
          <input id="name" type="text" name="Name" placeholder="Name" required>
          <label for="email"></label>
@@ -470,7 +470,7 @@
          <textarea id="textarea" rows="5" name="Content" placeholder="Let your text" required></textarea>
          <input type="text" name="_honey" style="display:none">
          <div class="submit-btn-container">
-            <input class="title-link submit" type="submit" value="Send">
+            <input class="title-link submit" type="submit" name="submit" value="Send">
             <input type="hidden" name="_next" value="https://mickyrendon.github.io/mickyRendon-portfolio/">
          </div>
       </form>
@@ -486,6 +486,9 @@
       </svg>
    </div>
    <!-- <div id="loading"></div> -->
+   <div id="loading">
+      <img id="loading-image" src="path/to/ajax-loader.gif" alt="Loading..." />
+    </div>
 
    <script src="./js/onload.js"></script>
    <script src="./js/toggleTheme.js"></script>
@@ -493,6 +496,13 @@
    <script src="./js/gallery.js"></script>
    <script src="./js/submitBtn.js"></script>
    <script src="./js/scrollAnimation.js"></script>
+   <script src="./js/primaryBtnClass.js"></script>
    <!-- <script src="./js/game.js "></script> -->
+   <!-- <script>
+      $(window).load(function() {
+        $('#loading').hide();
+      });
+    </script> -->
+    
 </body>
 </html>

@@ -156,15 +156,15 @@ function langScript(){
         `Responsive web page created with HTML, CSS, JavaScript and Bootstrap to show a rental house, i worked with arrays, functions and DOM.`
     );
     // card 3 title
-    const bsfEs = new ClassLayout(`Bensof estampados`);
-    const bsfEn = new ClassLayout(`Bensof prints`);
-    // card 3 description
-    const bensofEs = new ClassLayout(
-        `Ésta es una pagina web responsiva para un microemprendimiento de estampados, lo hice con HTML, CSS, JS, Bootstrap y animate.css una libreria de animacion que funciona en todos los navegadores, ésta pagina no está finalizada aún.`
-    );
-    const bensofEn = new ClassLayout(
-        `This is a responsive webpage for a microenterprise of prints, made it with HTML, CSS, JS, bootstrap and animate.css a cross browser animation library, this page is not finished yet.`
-    );
+    // const bsfEs = new ClassLayout(`Bensof estampados`);
+    // const bsfEn = new ClassLayout(`Bensof prints`);
+    // // card 3 description
+    // const bensofEs = new ClassLayout(
+    //     `Ésta es una pagina web responsiva para un microemprendimiento de estampados, lo hice con HTML, CSS, JS, Bootstrap y animate.css una libreria de animacion que funciona en todos los navegadores, ésta pagina no está finalizada aún.`
+    // );
+    // const bensofEn = new ClassLayout(
+    //     `This is a responsive webpage for a microenterprise of prints, made it with HTML, CSS, JS, bootstrap and animate.css a cross browser animation library, this page is not finished yet.`
+    // );
     // card 4 title
     const bgtEs = new ClassLayout(`Mi presupuesto`);
     const bgtEn = new ClassLayout(`My budget`);
@@ -275,10 +275,10 @@ function langScript(){
         lTls.children[2].children[0].innerHTML = demoEs.title ;
         lTls.children[2].children[1].children[0].innerHTML = codeEs.title;
         // card 3
-        bsf.children[0].innerHTML = bsfEs.title;
-        bsf.children[1].innerHTML = bensofEs.title;
-        bsf.children[2].children[0].innerHTML = demoEs.title ;
-        bsf.children[2].children[1].children[0].innerHTML = codeEs.title;
+        // bsf.children[0].innerHTML = bsfEs.title;
+        // bsf.children[1].innerHTML = bensofEs.title;
+        // bsf.children[2].children[0].innerHTML = demoEs.title ;
+        // bsf.children[2].children[1].children[0].innerHTML = codeEs.title;
         // card 4
         bgt.children[0].innerHTML = bgtEs.title;
         bgt.children[1].innerHTML = budgetEs.title;
@@ -344,10 +344,10 @@ function langScript(){
         lTls.children[2].children[0].innerHTML = demoEn.title ;
         lTls.children[2].children[1].children[0].innerHTML = codeEn.title ;
         // card 3
-        bsf.children[0].innerHTML = bsfEn.title;
-        bsf.children[1].innerHTML = bensofEn.title;
-        bsf.children[2].children[0].innerHTML = demoEn.title ;
-        bsf.children[2].children[1].children[0].innerHTML = codeEn.title ;
+        // bsf.children[0].innerHTML = bsfEn.title;
+        // bsf.children[1].innerHTML = bensofEn.title;
+        // bsf.children[2].children[0].innerHTML = demoEn.title ;
+        // bsf.children[2].children[1].children[0].innerHTML = codeEn.title ;
         // card 4
         bgt.children[0].innerHTML = bgtEn.title;
         bgt.children[1].innerHTML = budgetEn.title;
