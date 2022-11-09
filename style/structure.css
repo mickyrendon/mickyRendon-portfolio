@@ -316,6 +316,8 @@ h1{
     border-radius: 2rem;
     box-shadow: var(--gallery-bx-sh);
     /* outline: var(--label-out); */
+}
+.proyect-label:hover{
     cursor: pointer;
 }
 .shadow-active{
@@ -402,6 +404,9 @@ h1{
 }
 .instagram{
     background-image: url(../assets/profilePic/gallery/proyectsBackgrounds/instagram.png);
+}
+.pswrd{
+    background-image: url(../assets/profilePic/gallery/proyectsBackgrounds/pswrd.png);
 }
 .info-container, .buttons-container{
     width: 100%;

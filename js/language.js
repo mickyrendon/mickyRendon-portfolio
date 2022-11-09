@@ -39,6 +39,7 @@ function langScript(){
     const galleryH1 = document.querySelector('.gallery-title');
     // gallery cards
     // first card
+    const pswrd = document.querySelector('.pswrd-ctr');
     const pbdpCtnr = document.querySelector('.pbdp-ctnr');
     const lTls = document.querySelector('.l-tls');
     const bsf = document.querySelector('.bsf');
@@ -135,6 +136,16 @@ function langScript(){
     const demoEn = new ClassLayout(`Demo`);
     const codeEs = new ClassLayout(`Codigo`);
     const codeEn = new ClassLayout(`Code`);
+    // card 0 title
+    const pswrdEs = new ClassLayout(`Generador de contraseñas`);
+    const pswrdEn = new ClassLayout(`Password generator`);
+    // card 1 description
+    const pswrdDescEs = new ClassLayout(
+        `Creado con JavaScript, HTML, CSS, API's. La aplicación le permite elegir el tipo de caracteres y longitud de la contraseña, también puede copiar la contraseña gracias al uso de la web API. Hace uso de una API de frases.`
+    );
+    const pswrdDescEn = new ClassLayout(
+        `Created with JavaScript, HTML; CSS; API's. The application let you choose the chars type and the password length, also you can copy the password thanks to the use of the web API. Make use of an API of quotes.`
+    );
     // card 1 title
     const pbdpEs = new ClassLayout(`PaleBlueDotPodcast`);
     const pbdpEn = new ClassLayout(`PaleBlueDotPodcast`);
@@ -264,6 +275,11 @@ function langScript(){
         cLearn.innerHTML = cLearningEs.title;
         // gallery proyects section
         galleryH1.innerHTML = gH1Es.title;
+        // card 0
+        pswrd.children[0].innerHTML = pswrdEs.title;
+        pswrd.children[1].innerHTML = pswrdDescEs.title;
+        pswrd.children[2].children[0].innerHTML = demoEs.title ;
+        pswrd.children[2].children[1].children[0].innerHTML = codeEs.title;
         // card 1
         pbdpCtnr.children[0].innerHTML = pbdpEs.title;
         pbdpCtnr.children[1].innerHTML = pbdpDescEs.title;
@@ -333,6 +349,11 @@ function langScript(){
         cLearn.innerHTML = cLearningEn.title;
         // gallery proyects section
         galleryH1.innerHTML = gH1En.title;
+        // card 0
+        pswrd.children[0].innerHTML = pswrdEn.title;
+        pswrd.children[1].innerHTML = pswrdDescEn.title;
+        pswrd.children[2].children[0].innerHTML = demoEn.title ;
+        pswrd.children[2].children[1].children[0].innerHTML = codeEn.title ;
         // card 1
         pbdpCtnr.children[0].innerHTML = pbdpEn.title;
         pbdpCtnr.children[1].innerHTML = pbdpDescEn.title;
