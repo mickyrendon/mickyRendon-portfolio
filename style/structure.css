@@ -260,6 +260,8 @@ b{
 .profile-pic{
     padding: 0;
     width: 12rem;
+    height: 12rem;
+    object-fit: cover;
     box-shadow: var(--box-shadow);
     transition: all 1.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
