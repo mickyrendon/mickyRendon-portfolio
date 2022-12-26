@@ -59,7 +59,7 @@ function langScript(){
     // resume text
     const resumetextEs = new ClassLayout(
         `Bienvenido a mi portafolio! soy Miguel Rendón, mejor conocido como 'micky'. Soy un desarrollador web Front end, me especializo en diseño y desarrollo web, Posicionamiento web(SEO) y marketing digital.
-        Soy un chico Colombiano 🇨🇴 que viaja por el mundo, soy apasionado por la fotografía, el diseño y los deportes.`
+        Soy un chico Colombiano 🇨🇴 que viaja por el mundo, apasionado por la fotografía, el diseño y los deportes.`
     );
     const resumetextEn = new ClassLayout(
         `Welcome to my portfolio! I'm Miguel Rendón, better known as 'micky'. I am a Front end web developer, I specialize in web design and development, web positioning (SEO) and digital marketing.
