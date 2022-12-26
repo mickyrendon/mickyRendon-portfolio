@@ -58,12 +58,12 @@ function langScript(){
 
     // resume text
     const resumetextEs = new ClassLayout(
-        `Hola!, 👋 bienvenido a mi portafolio! soy Miguel Rendón, 'micky'. Soy un desarrollador web Front end estudiando para ser full stack. Disfruto construir soluciones digitales a personas, especialmente cuando ellos tienen emprendimientos o microemprendimientos que les permita tener un lugar en la web.
-        Soy un chico Colombiano 🇨🇴 que ahora vive en Chile 🇨🇱, me gusta viajar y por esa razón decidí estudiar esta carrera, prefiero trabajar remotamente, me gusta la fotografía y actualmente estoy aprendiendo a tocar el ukelele.`
+        `Bienvenido a mi portafolio! soy Miguel Rendón, mejor conocido como 'micky'. Soy un desarrollador web Front end, me especializo en diseño y desarrollo web, Posicionamiento web(SEO) y marketing digital.
+        Soy un chico Colombiano 🇨🇴 que viaja por el mundo, soy apasionado por la fotografía, el diseño y los deportes.`
     );
     const resumetextEn = new ClassLayout(
-        `Hi there, 👋 welcome to my portfolio! i'm Miguel Rendón, 'micky'. I'm a front end web developer studying to be a full-stack, I enjoy to build digital solutions for people, specially when they have entrepreneurship or microenterprises that let them a place on the web.
-        I'm a Colombian guy 🇨🇴 who now lives in Chile 🇨🇱, i like to travel and for that reason y decided study this carrer, i prefer to work remotely, i like photography and currently i'm learning to play the ukelele.`
+        `Welcome to my portfolio! I'm Miguel Rendón, better known as 'micky'. I am a Front end web developer, I specialize in web design and development, web positioning (SEO) and digital marketing.
+        I am a Colombian boy 🇨🇴 who travels the world, I am passionate about photography, design and sports.`
     );
     /* /////////////////////////////////////// */
     // academic title

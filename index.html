@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="Es">
+<html lang="es-Es">
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,6 +21,8 @@
    <link rel="stylesheet" href="./style/variables.css">
    <!-- <link rel="stylesheet" href="./style/gameStyle.css"> -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+   <!-- recaptcha -->
+   <!-- <script async src="https://www.google.com/recaptcha/api.js"></script> -->
    <title>micky rendon portfolio</title>
 </head>
 <body class="body">
@@ -48,8 +50,8 @@
        <form class="language-container">
          <label for="language"></label>
          <select name="language-btn" id="language" class="language animate__animated animate__zoomIn" title="language options">
-               <option value="En">English(translated)</option>
-               <option value="Es">Español(latinoAmerica)</option>
+            <option value="Es">Español(latinoAmerica)</option>
+            <option value="En">English(translated)</option>
          </select>
        </form>
        <!-- logo -->
@@ -510,10 +512,14 @@
          <label for="textarea"></label>
          <textarea id="textarea" rows="5" name="Content" placeholder="Let your text" required></textarea>
          <input type="text" name="_honey" style="display:none">
-         <div class="submit-btn-container">
+         <div class="submit-btn-container"><!-- class="g-recaptcha" 
+            data-sitekey="reCAPTCHA_site_key" 
+            data-callback='onSubmit' 
+            data-action='submit' -->
             <input class="title-link submit" type="submit" name="submit" value="Send">
             <input type="hidden" name="_next" value="https://mickyrendon.github.io/mickyRendon-portfolio/">
          </div>
+         <div class="g-recaptcha" data-sitekey="Clave del sitio"></div>
       </form>
       </article>
       <!-- <article class="game">
