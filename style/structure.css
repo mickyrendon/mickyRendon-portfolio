@@ -118,6 +118,13 @@ svg{
     width: 20px;
     height: 20px;
 }
+.brand-logo> svg{
+    width:5rem;
+    height:5rem;
+}
+.brand-logo .logo-fill{
+    fill: var(--text-color);
+}
 .academic, .technologies-list{
     margin-top: 1rem;
     width:100%;
@@ -182,6 +189,7 @@ b{
 }
 /* /////////////// */
 .sticky-nav{
+    margin-top: 0.5rem;
     padding:0.1rem;
     width: 100%;
     justify-content: space-between;
