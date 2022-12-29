@@ -1,7 +1,8 @@
+// adding btns class
 function btnAddClass(){
     const pBtnCtr = document.querySelectorAll('.buttons-container')
     const nodeList = [...pBtnCtr]
-    const sbmtBtn = document.forms['f-contact'].querySelector('input[name="submit"]')
+    const sbmtBtn = document.forms['f-contact'].querySelector('.submit')
     sbmtBtn.classList.add('p-btn')
     
     nodeList.forEach(element => {

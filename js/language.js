@@ -1,9 +1,9 @@
 // setting changes
-const langEv =  document.querySelector('.language');
+export const langEv =  document.querySelector('.language');
       langEv.addEventListener('change', langScript, true);
-const navLang = navigator.language
+export const navLang = navigator.language
 
-function langScript(){
+export function langScript(){
     // classes template//
     /* ///////////// */
     class ClassLayout{

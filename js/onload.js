@@ -1,3 +1,4 @@
+import { langScript } from "./language.js"
 window.onload = function(){
     langScript()
     btnAddClass()

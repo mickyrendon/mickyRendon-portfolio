@@ -123,7 +123,7 @@ svg{
     height:5rem;
 }
 .brand-logo .logo-fill{
-    fill: var(--text-color);
+    fill: var(--yllw);
 }
 .academic, .technologies-list{
     margin-top: 1rem;
@@ -296,18 +296,20 @@ b{
     animation:pulse;
     animation-duration: 1s;
 }
-h4{
+.tech-h4, .learning-subtitle, .acad-h4{
     width: -moz-available;
     font-size: 1.1rem;
+    font-weight: 700;
 }
 .technologies-list{
     height: auto;
 }
-h1{
-    font-size: 1.3rem;
-    text-align: start;
+.portfolio-gallery > h1, .form-container > h1{
     margin: 2rem 0 1rem;
     width: 100%;
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-align: start;
 }
 .portfolio-gallery{
     padding: 1rem 0;
@@ -382,6 +384,7 @@ h1{
 /* setting individual logo */
 .guifos-logo, .podcast-logo, .losTilos-logo, .budget-icon, .bensof-logo, .p-list-logo{
     width: 2.5rem;
+    max-width: none;
     height: 2.5rem;
     border: 1px solid #faf9fb;
     box-shadow: var(--gallery-bx-sh);
@@ -428,18 +431,22 @@ h1{
     flex-flow: row nowrap;
     justify-content:flex-start;
 }
+#modal-btns-ctr > #accept-btn, #title-link{
+    background-color: var(--link-c);
+    color: var(--p-btn)
+}
 .title-link{
     margin: 0;
     width: 6.5rem;
     height: 3rem;
     display: flex;
-    background: var(--link-c);
     justify-content: center;
     align-items: center;
     line-height: 1;
     border-radius:0.25rem;
     overflow: hidden;
     border: none;
+    background-color: var(--link-c);
     /* box-shadow:var(--outline-sh) ; */
 }
 .p-btn{
@@ -468,6 +475,7 @@ h1{
     padding-bottom:1.5rem;
 }
 #name, #email, #textarea{
+    margin: 0 0 1rem;
     padding: 0.375rem 0.75rem;
     width: 100%;
     background-color: var(--bck-input);
@@ -510,7 +518,11 @@ footer{
     left: 240px;
     z-index: 100;
   }
-
+/* modal */
+.circle-advisor{
+    background-color:var(--yllw);
+    color: var(--p-btn);
+}
 
 @media(min-width:620px){
     .sticky-nav, main, footer{
