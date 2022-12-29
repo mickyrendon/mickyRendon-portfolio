@@ -481,6 +481,7 @@ b{
     background-color: var(--bck-input);
     color: var(--text-color);
     border-radius: 0.25rem;
+    box-shadow: var(--gallery-bx-sh);
     border: none;
 }
 #name:focus, #email:focus, #textarea:focus{
