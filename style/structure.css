@@ -479,6 +479,7 @@ b{
     padding: 0.375rem 0.75rem;
     width: 100%;
     background-color: var(--bck-input);
+    color: var(--text-color);
     border-radius: 0.25rem;
     border: none;
 }

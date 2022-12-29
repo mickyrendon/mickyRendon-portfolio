@@ -21,15 +21,40 @@ function modal(e){
 
 }
 // btn aceptar del modal
-// TODO, verificar el contenido del form y luego enviar 
 const acceptBtn = document.querySelector('#accept-btn')
 acceptBtn.addEventListener('click', submitHandler)
+const regex = /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i
+
 
 function submitHandler() {
    const f = document.forms['f-contact']
-   modalCtr.setAttribute('hidden', true)
-// recordar que no funciona si hay algun elemento dentro del formulario con el name='submit', se sobreeescribe
-   f.submit()
-   console.log(f.hasAttribute('sent'))
+   const name = f.querySelector('#name')
+   const email = f.querySelector('#email')
+   const textArea = f.querySelector('#textarea')
+
+   if ( name.value === '' || email.value === '' || textArea.value === '' ){
+      // TODO, usar el modal que existe de tailwind para mostrar reemplazar el alert
+      alert('Todos los campos son obligatorios')
+      modalCtr.setAttribute('hidden', true)
+
+   }else if(email.value !== email.value.match(regex)){
+      console.log(email);
+      email.value = ''
+      email.focus()
+      email.setAttribute('placeholder', 'Completa bien este campo')
+      return modalCtr.setAttribute('hidden', true)
+
+   }else{
+      
+      debugger
+      modalCtr.setAttribute('hidden', true)
+      // recordar que no funciona si hay algun elemento dentro del formulario con el name='submit', se sobreeescribe
+      return f.submit()
+   }
 }
-// TODO, crear funcion para el btn cancelar del modal
+//cancelar btn / modal
+const cancelModal = document.querySelector('.cancel-modal')
+cancelModal.addEventListener('click', close)
+function close() {
+   modalCtr.setAttribute('hidden', true)
+}
