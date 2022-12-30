@@ -486,6 +486,9 @@ b{
 }
 #name:focus, #email:focus, #textarea:focus{
     border: var(--outline);
+
+
+    
 }
 .submit-btn-container{
     width: 100%;
@@ -525,7 +528,10 @@ footer{
     background-color:var(--yllw);
     color: var(--p-btn);
 }
-
+/* hidden class */
+.hidden{
+    display:none;
+}
 @media(min-width:620px){
     .sticky-nav, main, footer{
        max-width: 70vw;

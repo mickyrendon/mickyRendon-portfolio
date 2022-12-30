@@ -234,7 +234,7 @@ export function langScript(){
     const fH1En = new ClassLayout(`Get in touch`);
     // input name
     const iNaEs = new ClassLayout(`Nombre`);
-    const iNaEn = new ClassLayout(`Name`);
+    // const iNaEn = new ClassLayout(`Name`);
     // input email
     const iEmEs = new ClassLayout(`Correo`);
     const iEmEn = new ClassLayout(`Email`);
@@ -391,7 +391,7 @@ export function langScript(){
         twtr.children[2].children[1].children[0].innerHTML = codeEn.title ;
         // form
         formH1.innerHTML = fH1En.title;
-        iName.placeholder.placeholder = iNaEn.title;
+        // iName.placeholder.placeholder = iNaEn.title;
         iEmail.placeholder = iEmEn.title;
         iText.placeholder = iTxtEn.title;
         sendBtn.value = sndBtnEn.title;
