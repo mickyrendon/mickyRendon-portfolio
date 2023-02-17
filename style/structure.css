@@ -106,6 +106,9 @@ main, footer{
     box-shadow:var(--gallery-bx-sh);/* var(--outline-sh) */
     /* background:#716e6e5c; */
 }
+.resume-text{
+    align-self: center;
+}
 .desktop-content{
     display: none;
 }

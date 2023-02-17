@@ -70,6 +70,7 @@ function modal(e){
    e.stopPropagation()
 
    modalCtr.removeAttribute('hidden')
+   // FIXME revisar esta funcion porque estoy viendo otro contenido en el modal
    txtValues()
 
 }
@@ -105,15 +106,14 @@ function submitHandler() {
       // if validation is true change modal content to be alert content, also show ok btn & hidde de other btns
       if(navLang === 'es' || langEv.options[langEv.selectedIndex].value === 'Es' ){
 
-         email.setAttribute('placeholder', valuesContent.ePlaceHolderEs)
-         modalTitle.textContent = valuesContent.atentTitleEs
-         txt.textContent = valuesContent.atentTxtEs
+         modalTitle.textContent = valuesContent.titleEs
+         txt.textContent = valuesContent.pEs
 
       }else{
          
-         modalTitle.textContent = valuesContent.atentTitleEn
-         txt.textContent = valuesContent.atentTxtEn
-         
+         modalTitle.textContent = valuesContent.titleEn
+         txt.textContent = valuesContent.pEn
+
       }
       acceptBtn.classList.add('hidden')
       cancelModal.classList.add('hidden')
