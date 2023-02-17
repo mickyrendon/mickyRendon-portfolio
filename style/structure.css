@@ -424,6 +424,9 @@ b{
 .pswrd{
     background-image: url(../assets/profilePic/gallery/proyectsBackgrounds/pswrd.png);
 }
+.sushi{
+    background-image: url(../assets/profilePic/gallery/proyectsBackgrounds/sushi.png);
+}
 .info-container, .buttons-container{
     width: 100%;
     display: flex;
