@@ -39,7 +39,7 @@ export function langScript(){
     const galleryH1 = document.querySelector('.gallery-title');
     // gallery cards
     // first card
-    const sushi = document.querySelector('.sushi-ctr');
+    // const sushi = document.querySelector('.sushi-ctr');
     const pswrd = document.querySelector('.pswrd-ctr');
     const pbdpCtnr = document.querySelector('.pbdp-ctnr');
     const lTls = document.querySelector('.l-tls');
@@ -138,15 +138,15 @@ export function langScript(){
     const codeEs = new ClassLayout(`Codigo`);
     const codeEn = new ClassLayout(`Code`);
     // card 0 title
-    const sushiEs = new ClassLayout(`Sushi Resto`);
-    const sushiEn = new ClassLayout(`Sushi Resto`);
-    // card 0 description
-    const sushiDescEs = new ClassLayout(
-        `Pagina web para cualquier tipo de restaurante, en este caso es de sushi, creada con vanilla JavaScript (JavaScript puro), HTML, CSS, Tailwind y buenas prácticas de optimización web. La pagina permite al usuario ver los productos con sus descripciones y precios, descargar la carta y ponerse en contacto con el restaurante por medio de un formulario o redes sociales, así como ver las sucursales en google maps.`
-    );
-    const sushiDescEn = new ClassLayout(
-        `Web page for any type of restaurant, in this case it is sushi, created with vanilla JavaScript (pure JavaScript), HTML, CSS, Tailwind and good web optimization practices. The page allows the user to see the products with their descriptions and prices, download the menu and contact the restaurant through a form or social networks, as well as see the branches on google maps.`
-    );
+    // const sushiEs = new ClassLayout(`Sushi Resto`);
+    // const sushiEn = new ClassLayout(`Sushi Resto`);
+    // // card 0 description
+    // const sushiDescEs = new ClassLayout(
+    //     `Pagina web para cualquier tipo de restaurante, en este caso es de sushi, creada con vanilla JavaScript (JavaScript puro), HTML, CSS, Tailwind y buenas prácticas de optimización web. La pagina permite al usuario ver los productos con sus descripciones y precios, descargar la carta y ponerse en contacto con el restaurante por medio de un formulario o redes sociales, así como ver las sucursales en google maps.`
+    // );
+    // const sushiDescEn = new ClassLayout(
+    //     `Web page for any type of restaurant, in this case it is sushi, created with vanilla JavaScript (pure JavaScript), HTML, CSS, Tailwind and good web optimization practices. The page allows the user to see the products with their descriptions and prices, download the menu and contact the restaurant through a form or social networks, as well as see the branches on google maps.`
+    // );
     // card 1 title
     const pswrdEs = new ClassLayout(`Generador de contraseñas`);
     const pswrdEn = new ClassLayout(`Password generator`);
@@ -287,10 +287,10 @@ export function langScript(){
         // gallery proyects section
         galleryH1.innerHTML = gH1Es.title;
         // card -0
-        sushi.children[0].innerHTML = sushiEs.title;
-        sushi.children[1].innerHTML = sushiDescEs.title;
-        sushi.children[2].children[0].innerHTML = demoEs.title ;
-        sushi.children[2].children[1].children[0].innerHTML = codeEs.title;
+        // sushi.children[0].innerHTML = sushiEs.title;
+        // sushi.children[1].innerHTML = sushiDescEs.title;
+        // sushi.children[2].children[0].innerHTML = demoEs.title ;
+        // sushi.children[2].children[1].children[0].innerHTML = codeEs.title;
         // card 0
         pswrd.children[0].innerHTML = pswrdEs.title;
         pswrd.children[1].innerHTML = pswrdDescEs.title;
@@ -366,10 +366,10 @@ export function langScript(){
         // gallery proyects section
         galleryH1.innerHTML = gH1En.title;
         // card -0
-        sushi.children[0].innerHTML = sushiEn.title;
-        sushi.children[1].innerHTML = sushiDescEn.title;
-        sushi.children[2].children[0].innerHTML = demoEn.title ;
-        sushi.children[2].children[1].children[0].innerHTML = codeEn.title ;
+        // sushi.children[0].innerHTML = sushiEn.title;
+        // sushi.children[1].innerHTML = sushiDescEn.title;
+        // sushi.children[2].children[0].innerHTML = demoEn.title ;
+        // sushi.children[2].children[1].children[0].innerHTML = codeEn.title ;
         // card 0
         pswrd.children[0].innerHTML = pswrdEn.title;
         pswrd.children[1].innerHTML = pswrdDescEn.title;
