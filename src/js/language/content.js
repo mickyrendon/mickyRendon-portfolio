@@ -83,6 +83,17 @@ export const spanish = [
                 ps: `Adobe Photoshop`,
                 ai: `Adobe Ilustrator`
             }
+        },
+        form: {
+            title: `Ponte en contacto`,
+            name: `nombre`,
+            email: `email`,
+            textArea: `deja tu mensaje`,
+            btn: {
+                submit: `Envíar`,
+                // cancel: ``,
+                // accept: ``
+            }
         }
         
     }
@@ -166,6 +177,17 @@ export const english = [
                 eng: `English B1(intermediate)`,
                 ps: `Adobe Photoshop`,
                 ai: `Adobe Ilustrator`
+            }
+        },
+        form: {
+            title: `Get in touch`,
+            name: `name`,
+            email: `email`,
+            textArea: `let your message`,
+            btn: {
+                submit: `Submit`,
+                // cancel: ``,
+                // accept: ``
             }
         }
     }

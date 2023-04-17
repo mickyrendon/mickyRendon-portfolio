@@ -7,7 +7,8 @@ export const proyectStructure = [
             demoURl: `https://mickyrendon.github.io/password-generator/`,
             repoURl: `https://github.com/mickyrendon/password-generator`
 
-        }
+        },
+        ownClass: `pswrd-ctr`,
     },
     {
         imgAlt: `LosTilos-logo`,
@@ -17,7 +18,8 @@ export const proyectStructure = [
             demoURl:`https://mickyrendon.github.io/LosTilos/`,
             repoURl: `https://github.com/mickyrendon/LosTilos`
 
-        }
+        },
+        ownClass: `l-tls`,
     },
     {
         imgAlt: `my-budget`,
@@ -27,7 +29,8 @@ export const proyectStructure = [
             demoURl:`https://mickyrendon.github.io/presupuesto/`,
             repoURl: `https://github.com/mickyrendon/presupuesto`
 
-        }
+        },
+        ownClass: `bgt`,
     },
     {
         imgAlt: `Instagram-clone`,
@@ -37,7 +40,8 @@ export const proyectStructure = [
             demoURl: `https://mickyrendon.github.io/instagram-clone/`,
             repoURl: `https://github.com/mickyrendon/instagram-clone`
 
-        }
+        },
+        ownClass: `insta`,
     },
     {
         imgAlt: `Twitter-clone`,
@@ -46,7 +50,8 @@ export const proyectStructure = [
         buttons : {
             demoURl: `https://mickyrendon.github.io/twitter-clone/`,
             repoURl: `https://github.com/mickyrendon/twitter-clone`
-        }
+        },
+        ownClass: `twtr`,
     },
     {
         imgAlt: `PaleBlueDotPodcast-logo`,
@@ -55,7 +60,8 @@ export const proyectStructure = [
         buttons : {
             demoURl: `https://mickyrendon.github.io/PaleBlueDotPodcast/`,
             repoURl: `https://github.com/mickyrendon/PaleBlueDotPodcast`
-        }
+        },
+        ownClass: `pbdp-ctnr`,
     },
 ]
 
