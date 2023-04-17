@@ -168,7 +168,7 @@ li{
 .express-icon{
     fill: var(--express-icon);
 }
-.info-container p, b{
+.info-container p, h2{
     height: auto;
     color:#ebeaeb;
 }
