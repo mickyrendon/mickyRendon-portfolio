@@ -1,4 +1,4 @@
-import {langEv, navLang } from "./language.js";
+import {langEv, navLang } from "../language/language.js";
 const submitBtn = document.querySelector('.submit');
 submitBtn.addEventListener('click', modal)
 
@@ -68,7 +68,7 @@ const txtValues = () => {
 function modal(e){
    e.preventDefault()
    e.stopPropagation()
-
+   console.log('modal');
    modalCtr.removeAttribute('hidden')
    // FIXME revisar esta funcion porque estoy viendo otro contenido en el modal
    txtValues()

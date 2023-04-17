@@ -396,37 +396,6 @@ b{
     outline: none;
     border: none;
 }
-/* backgrounds proyects -- to fixe path*/
-.guifos{
-    background-image: url(../assets/profilePic/gallery/proyectsBackgrounds/guifos.png);
-}
-.podcast{
-    background-image: url(../assets/profilePic/gallery/proyectsBackgrounds/paleBlue.png);
-}
-.los-tilos{
-    background-image: url(../assets/profilePic/gallery/proyectsBackgrounds/lostilos.png);
-}
-.budget{
-    background-image: url(../assets/profilePic/gallery/proyectsBackgrounds/budget.png);
-}
-.bensof{
-    background-image: url(../assets/profilePic/gallery/proyectsBackgrounds/bensof.png);
-}
-.p-list{
-    background-image: url(../assets/profilePic/gallery/proyectsBackgrounds/people-listing.png);
-}
-.twitter{
-    background-image: url(../assets/profilePic/gallery/proyectsBackgrounds/twitter.png);
-}
-.instagram{
-    background-image: url(../assets/profilePic/gallery/proyectsBackgrounds/instagram.png);
-}
-.pswrd{
-    background-image: url(../assets/profilePic/gallery/proyectsBackgrounds/pswrd.png);
-}
-.sushi{
-    background-image: url(../assets/profilePic/gallery/proyectsBackgrounds/sushi.png);
-}
 .info-container, .buttons-container{
     width: 100%;
     display: flex;
@@ -533,6 +502,9 @@ footer{
 .circle-advisor{
     background-color:var(--yllw);
     color: var(--p-btn);
+}
+.bck-main-colors{
+    background-color:var(--yllw);
 }
 /* hidden class */
 .hidden{

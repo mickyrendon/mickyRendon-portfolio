@@ -1,10 +1,6 @@
-const label = document.querySelectorAll('.label');
+const label = document.querySelectorAll('.label')
 
-label.forEach(e => {
-    e.addEventListener('click', click, true)
-});
-
-function click(e){
+export const click = (e) => {
     label.forEach((e) => {
         e.parentElement.classList.remove('active');
         e.classList.remove('shadow');
