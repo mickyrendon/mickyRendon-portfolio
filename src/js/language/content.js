@@ -1,8 +1,8 @@
 export const spanish = [
     {
         resume: `Bienvenido a mi portafolio! soy Miguel Rendón, mejor conocido como 'micky'. Soy un desarrollador web Front end, me especializo en diseño y desarrollo web, Posicionamiento web(SEO) y marketing digital.
-        Soy un chico Colombiano 🇨🇴 que viaja por el mundo, apasionado por la fotografía, el diseño y los deportes.`,
-        
+        Soy un chico Colombiano 🇨🇴 que viaja por el mundo, apasionado por la fotografía, el diseño y los deportes. En mis tiempos libres traduzco articulos de programación al español para FreeCodeCamp.`,
+        cv: `Descargar CV`,
         proyects : {
             title: `Algunos proyectos`,
             pswd: {
@@ -62,7 +62,7 @@ export const spanish = [
             title: `Académico`,
             currently : {
                 title: `Actualmente`,
-                ob : `Open Bootcamp, React`,
+                // ob : `Open Bootcamp, React`,
                 platziFSWD: `Platzi, full stack developer con JavaScript`,
                 platziUI: `Platzi, diseño de interfaces (UI)`
             },
@@ -81,7 +81,8 @@ export const spanish = [
                 title: `Autodidacta`,
                 eng: `Inglés B1(intermedio)`,
                 ps: `Adobe Photoshop`,
-                ai: `Adobe Ilustrator`
+                ai: `Adobe Ilustrator`,
+                xd: `Adobe XD`
             }
         },
         form: {
@@ -103,7 +104,7 @@ export const english = [
     {
         resume: `Welcome to my portfolio! I'm Miguel Rendón, better known as 'micky'. I am a Front end web developer, I specialize in web design and development, web positioning (SEO) and digital marketing.
         I am a Colombian boy 🇨🇴 who travels the world, I am passionate about photography, design and sports.`,
-
+        cv: `Download CV`,
         proyects : {
             title: `Some proyects`,
             pswd: {

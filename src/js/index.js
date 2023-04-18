@@ -31,7 +31,6 @@ themeBtn.addEventListener('click', async () => {
     const { toggleTheme } = await import('../js/dark_mode/toggleTheme.js')
     return toggleTheme()
 })
-
 // proyects
 const label = document.querySelectorAll('.label')
 label.forEach((e) => {

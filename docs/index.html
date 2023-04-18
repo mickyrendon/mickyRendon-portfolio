@@ -168,8 +168,12 @@
 <main>
    <div class="resume">
       <nav class="network-container">
-         <img  class="profile-pic animate__animated animate__zoomIn" src="../assets/profilePic/profilePic.jpeg" alt="profilePic" title="profile pic">
-         <ul class="network-list">
+         <figure>
+            <img  class="profile-pic animate__animated animate__zoomIn" src="../assets/profilePic/profilePic.jpeg" alt="profilePic" title="profile pic">
+         </figure>
+         <div class="mb-4 btns-ctr flex flex-col items-center w-full gap-y-8">
+            
+            <ul class="network-list m-0">
             <li>
                   <a href="https://github.com/mickyrendon" title="link to github">
                      <svg class="network-icon animate__animated animate_pulse" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 48 48" style=" fill:#000000;">
@@ -192,7 +196,15 @@
                   </svg>  
                   </a>
             </li>
-         </ul>
+            </ul>
+            <a href="../assets/profilePic/mickyRendon-Frontend-cv.pdf" class="download title-link p-btn font-bold w-auto animate__animated animate__zoomIn" role="button" download>
+               <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="ml-4">
+                  <path d="M3,12.3v7a2,2,0,0,0,2,2H19a2,2,0,0,0,2-2v-7" fill="none" stroke="var(--p-btn)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                  <polyline data-name="Right" fill="none" id="Right-2" points="7.9 12.3 12 16.3 16.1 12.3" stroke="var(--p-btn)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                  <line fill="none" stroke="var(--p-btn)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="12" x2="12" y1="2.7" y2="14.2"/>
+               </svg>
+            </a>
+         </div>
       </nav>
       <!-- <div class="resume-container"> -->
       <p class="resume-text animate__animated animate__fadeInDown" title="presentation card">
@@ -203,6 +215,7 @@
          <h1 class="gallery-title"></h1>
          <div class="proyects-container"></div>
       </section>
+      <!-- FIXME, crear el codigo con js -->
       <article class="tech-container js-scroll slide-right" title="technologies card">
          <h4 class="tech-h4"></h4>
          <ul class="technologies-list">

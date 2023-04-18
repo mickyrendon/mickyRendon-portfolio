@@ -66,11 +66,7 @@ portfolio-gallery,
     animation: pulse;
     animation-duration: 0.5s;
 }
-.network-list > li > a:hover > svg{
-    transform: scale(1.2);
-    animation: ease-in;
-    animation-duration: 0.3s;
-}
+
 a, b, h1, h4, .submit,.academic, .secondary-btn {
     font-family: 'Roboto Mono', monospace;
 }
@@ -277,12 +273,15 @@ b{
     transition: all 1.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 .network-container{
+    margin-bottom: 2rem;
     padding: 0.5rem;
     width: 100%;
+    gap: 0.5rem;
 }
 .network-list{
-    width: 100%;
+    width: auto;
     justify-content: space-evenly;
+    gap: 4rem;
     border: none;
 }
 .network-list li{
@@ -514,6 +513,11 @@ footer{
     .sticky-nav, main, footer{
        max-width: 70vw;
     }
+    .network-list > li > a:hover > svg{
+        transform: scale(1.2);
+        animation: ease-in;
+        animation-duration: 0.3s;
+    }
 }
 @media(min-width:920px){
     /* body{
@@ -541,13 +545,9 @@ footer{
         max-width: 100%;
      } */
      .network-container{
-         flex-wrap: nowrap;
+         /* flex-wrap: nowrap; */
          justify-content: space-evenly;
          align-items: center;
-     }
-     .network-list{
-         width: auto;
-         display: block;
      }
   
      .portfolio-gallery{

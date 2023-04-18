@@ -10,6 +10,7 @@
     --all-1s-cubic-bz:all 1000ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
     /* a tag color */
     --link-c:rgba(255,223,67,1);/* rgba(255,223,67,1); */
+    --hover:rgb(241, 212, 62);
     /* background components */
     --bkg-components:#3e3c3e;
     /* filter */
@@ -61,11 +62,12 @@
     --p-btn:#433e43;
 }
 .light-theme{
-    --text-color:#3a383a;
+    --text-color:#070707;
     --bkg-color: #faf9fb;
     --all-1s-cubic-bz:all 1000ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
     /* a tag color */
     --link-c:rgba(35, 123, 177, 1);
+    --hover:rgb(53, 128, 175);
     /* background components */
     --bkg-components:rgba(235, 232, 232, 0.823);
     /* filter */

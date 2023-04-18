@@ -1,5 +1,9 @@
 import { spanish, english } from "./content.js"
     
+// cv btn
+const cv = document.querySelector('.download')
+// resume
+const resumeText = document.querySelector('.resume-text')
 // gallery 
 // title
 const galleryH1 = document.querySelector('.gallery-title')
@@ -21,8 +25,6 @@ const techH4 = document.querySelector('.tech-h4')
 const cLearn = document.querySelector('.c-learn')
 
 // academic card
-const resumeText = document.querySelector('.resume-text')
-// academic card
 const academicTitle = document.querySelector('.acad-h4')
 // currently parent node
 const currentlySection = document.querySelector('.currently')
@@ -41,6 +43,8 @@ const iText = document.getElementById('textarea')
 const sendBtn = document.querySelector('.submit')
 
 export const spanishTemplate = () => {
+    // download
+    cv.textContent = spanish[0].cv
     // resume
     resumeText.textContent = spanish[0].resume,
         
@@ -112,6 +116,7 @@ export const spanishTemplate = () => {
 }
 
 export const englishTemplate = () => {
+    cv.textContent = english[0].cv
     // resume
     resumeText.textContent = english[0].resume,
         
