@@ -3,12 +3,16 @@ import { cardsIterator } from "./proyects/proyectsCard/cardsStructure.js"
 import { btnAddClass } from "./proyects/proyectsCard/primaryBtnClass.js"
 import { langValidator, loadLangNavigator } from "./language/languageValidator.js"
 import { downloadCV } from "./downloadCV/download.js"
+import { techCardsIterator } from "./proyects/techCard/cardStructure.js"
+import { currentLearningIterator } from "./proyects/techCard/currentLearningList/listStructure.js"
 
 // <script type="module" src="./js/submitBtn.js"></script>
 
 themeValidator()
 btnAddClass()
 cardsIterator
+techCardsIterator
+currentLearningIterator
 langValidator()
 loadLangNavigator()
 downloadCV()
