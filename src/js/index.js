@@ -1,7 +1,8 @@
 import { themeValidator} from "./dark_mode/toggleTheme.js"
-import { cardsIterator } from "./proyects/cardsStructure.js"
-import { btnAddClass } from "./proyects/primaryBtnClass.js"
+import { cardsIterator } from "./proyects/proyectsCard/cardsStructure.js"
+import { btnAddClass } from "./proyects/proyectsCard/primaryBtnClass.js"
 import { langValidator, loadLangNavigator } from "./language/languageValidator.js"
+import { downloadCV } from "./downloadCV/download.js"
 
 // <script type="module" src="./js/submitBtn.js"></script>
 
@@ -10,6 +11,7 @@ btnAddClass()
 cardsIterator
 langValidator()
 loadLangNavigator()
+downloadCV()
 
 globalThis.addEventListener('load', async () => {
     const { deleteLoader } = await import('../js/preload/onload.js')
@@ -35,7 +37,7 @@ themeBtn.addEventListener('click', async () => {
 const label = document.querySelectorAll('.label')
 label.forEach((e) => {
     e.addEventListener('click', async (e) => {
-        const { click } = await import('./proyects/clickCards.js')
+        const { click } = await import('./proyects/proyectsCard/clickCards.js')
         return click(e)
     })
 })

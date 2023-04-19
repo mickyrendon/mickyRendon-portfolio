@@ -1,5 +1,5 @@
-import { proyectStructure } from "./contentStructure.js"
-import { cardRender } from "./renderIterator.js"
+import { proyectStructure } from "../proyectsCard/contentStructure.js"
+import { cardRender } from "../renderIterator.js"
 
 const nodeCtr = document.querySelector('.proyects-container')
 
@@ -40,14 +40,14 @@ const cardNode = (id) => {
       // create span to add the button name
       const txtContent = document.createElement('span')
       // Create svg element to add repo icon btn
-      const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
-            svg.setAttribute("class", "icon-code");
-            svg.setAttribute("xmlns", "http://www.w3.org/2000/svg");
-            svg.setAttribute("x", "0px");
-            svg.setAttribute("y", "0px");
-            svg.setAttribute("width", "48");
-            svg.setAttribute("height", "48");
-            svg.setAttribute("viewBox", "0 0 48 48");
+      const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg")
+            svg.setAttribute("class", "icon-code")
+            svg.setAttribute("xmlns", "http://www.w3.org/2000/svg")
+            svg.setAttribute("x", "0px")
+            svg.setAttribute("y", "0px")
+            svg.setAttribute("width", "48")
+            svg.setAttribute("height", "48")
+            svg.setAttribute("viewBox", "0 0 48 48")
 
       // Create path tag wich is the icon itself
       const path = document.createElementNS("http://www.w3.org/2000/svg", "path")
