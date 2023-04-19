@@ -42,6 +42,7 @@ const iEmail = document.getElementById('email')
 const iText = document.getElementById('textarea')
 const sendBtn = document.querySelector('.submit')
 
+
 export const spanishTemplate = () => {
     // download
     cv.textContent = spanish[0].cv
