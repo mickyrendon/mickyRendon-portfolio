@@ -393,16 +393,23 @@ b{
 }
 /* //////////// */
 /* setting individual logo */
-.guifos-logo, .podcast-logo, .losTilos-logo, .budget-icon, .bensof-logo, .p-list-logo{
+/* .guifos-logo,
+    .bensof-logo,
+    .podcast-logo, , .budget-icon, .p-list-logo
+*/
+.icon-container > img{
     width: 2.5rem;
     max-width: none;
     height: 2.5rem;
     border: 1px solid #faf9fb;
     box-shadow: var(--gallery-bx-sh);
     border-radius: 50%;
-    background-color:#faf9fb;
+    /* background-color:#faf9fb; */
     outline: none;
     border: none;
+}
+.los-tilos-logo{
+    background-color: #faf9fb;
 }
 .info-container, .buttons-container{
     width: 100%;

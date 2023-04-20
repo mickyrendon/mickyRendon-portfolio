@@ -1,5 +1,16 @@
 export const proyectStructure = [
     {
+        imgAlt: `mi-resto`,
+        bkgImage: `url(./assets/profilePic/gallery/proyectsBackgrounds/resto.png)`,
+        iconImage: `./assets/profilePic/gallery/ProyectsIcons/resto.svg`,
+        buttons : {
+            demoURl: `https://okasama-sushi-resto.netlify.app/`,
+            repoURl: `https://github.com/mickyrendon/Sushi-resto`
+
+        },
+        ownClass: `resto-ctr`,
+    },
+    {
         imgAlt: `password-generator`,
         bkgImage: `url(./assets/profilePic/gallery/proyectsBackgrounds/pswrd.png)`,
         iconImage: `./assets/profilePic/gallery/ProyectsIcons/secure-svgrepo-com.svg`,
@@ -11,7 +22,7 @@ export const proyectStructure = [
         ownClass: `pswrd-ctr`,
     },
     {
-        imgAlt: `LosTilos-logo`,
+        imgAlt: `los-tilos-logo`,
         bkgImage: `url(./assets/profilePic/gallery/proyectsBackgrounds/lostilos.png)`,
         iconImage: `./assets/profilePic/gallery/ProyectsIcons/losTilosLogo.png`,
         buttons : {
@@ -24,7 +35,7 @@ export const proyectStructure = [
     {
         imgAlt: `my-budget`,
         bkgImage: `url(./assets/profilePic/gallery/proyectsBackgrounds/budget.png)`,
-        iconImage: `./assets/profilePic/gallery/ProyectsIcons/calculator.png`,
+        iconImage: `./assets/profilePic/gallery/ProyectsIcons/calculator.svg`,
         buttons : {
             demoURl:`https://mickyrendon.github.io/presupuesto/`,
             repoURl: `https://github.com/mickyrendon/presupuesto`

@@ -15,9 +15,9 @@ const cardNode = (id) => {
       const figure = document.createElement('figure')
             figure.classList.add('icon-container')
       const img = document.createElement('img')
-            img.classList.add('budget-icon')
+            img.classList.add(`${proyectStructure[id].imgAlt}`)
             img.src = `${proyectStructure[id].iconImage}`
-            img.setAttribute('alt', `${proyectStructure[id].alt}`)
+            img.setAttribute('alt', `${proyectStructure[id].imgAlt}`)
       // create the text container, title and description
       const infoCtr = document.createElement('div')
             infoCtr.classList.add('info-container', `${proyectStructure[id].ownClass}`)

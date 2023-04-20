@@ -1,10 +1,18 @@
 export const spanish = [
     {
-        resume: `Bienvenido a mi portafolio! soy Miguel Rendón, mejor conocido como 'micky'. Soy un desarrollador web Front end, me especializo en diseño y desarrollo web, Posicionamiento web(SEO) y marketing digital.
+        resume: `Bienvenido a mi portafolio! soy Miguel Rendón, mejor conocido como 'micky'. Soy un desarrollador web Front end con más de dos años de experiencia me especializo en diseño y desarrollo web, Posicionamiento web(SEO) y marketing digital.
         Soy un chico Colombiano 🇨🇴 que viaja por el mundo, apasionado por la fotografía, el diseño y los deportes. En mis tiempos libres traduzco articulos de programación al español para FreeCodeCamp.`,
         cv: `Descargar CV`,
         proyects : {
             title: `Algunos proyectos`,
+            resto: {
+                title : `Mi Restaurant`,
+                description: `Template personalizable para cualquier restaurante. Creado con vanilla JavaScript, HTML, CSS, Tailwind. La pagina permite navegar facilmente al usuario, tiene un botón de acción para que el usuario reserve o pida con una llamada.`,
+                buttons : {
+                    demo: `Demo`,
+                    repo: `Codigo`,
+                }
+            },
             pswd: {
                 title : `Generador de contraseñas`,
                 description: `Creado con JavaScript, HTML, CSS, API's. La aplicación le permite elegir el tipo de caracteres y longitud de la contraseña, también puede copiar la contraseña gracias al uso de la web API. Hace uso de una API de frases.`,
@@ -102,11 +110,19 @@ export const spanish = [
 
 export const english = [
     {
-        resume: `Welcome to my portfolio! I'm Miguel Rendón, better known as 'micky'. I am a Front end web developer, I specialize in web design and development, web positioning (SEO) and digital marketing.
+        resume: `Welcome to my portfolio! I'm Miguel Rendón, better known as 'micky'. I am a Front end web developer with over two years of experience I specialize in web design and development, web positioning (SEO) and digital marketing.
         I am a Colombian boy 🇨🇴 who travels the world, I am passionate about photography, design and sports.`,
         cv: `Download CV`,
         proyects : {
             title: `Some proyects`,
+            resto: {
+                title : `My Restaurant`,
+                description: `"Customizable template for any restaurant. Created with vanilla JavaScript, HTML, CSS, and Tailwind. The page allows for easy navigation for the user, and it has a call-to-action button for the user to make a reservation or order with a phone call.`,
+                buttons : {
+                    demo: `Demo`,
+                    repo: `Code`
+                }
+            },
             pswd: {
                 title : `Password generator`,
                 description: `Created with JavaScript, HTML; CSS; API's. The application let you choose the chars type and the password length, also you can copy the password thanks to the use of the web API. Make use of an API of quotes.`,
