@@ -4,7 +4,7 @@ export const proyectStructure = [
         bkgImage: `url(./assets/profilePic/gallery/proyectsBackgrounds/resto.png)`,
         iconImage: `./assets/profilePic/gallery/ProyectsIcons/resto.svg`,
         buttons : {
-            demoURl: `https://okasama-sushi-resto.netlify.app/`,
+            demoURl: `https://mirestorant.netlify.app/`,
             repoURl: `https://github.com/mickyrendon/Sushi-resto`
 
         },
