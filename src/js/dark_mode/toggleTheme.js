@@ -5,9 +5,10 @@ export const themeValidator = () => {
   
   return currentTheme === 'dark'?
   body.classList.toggle('dark-theme'):  
-  currentTheme == 'light'?
+  currentTheme === 'light'?
   body.classList.toggle('light-theme'):
-  console.log('no es light')
+  (body.classList.toggle('light-theme'),
+  console.log('no es light'))
 
 }
 
