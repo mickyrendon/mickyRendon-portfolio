@@ -1,4 +1,4 @@
-import { proyectStructure } from "./proyectsCard/contentStructure.js"
+import { proyectStructure } from "./contentStructure.js"
 
 // lista los elementos del array con el 'title' de cada uno
 export const indexed = proyectStructure.reduce((acum, elem, index)  => ({

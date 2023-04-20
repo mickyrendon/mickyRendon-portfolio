@@ -1,5 +1,5 @@
-import { proyectStructure } from "../proyectsCard/contentStructure.js"
-import { cardRender } from "../renderIterator.js"
+import { proyectStructure } from "./contentStructure.js"
+import { cardRender } from "./renderIterator.js"
 
 const nodeCtr = document.querySelector('.proyects-container')
 

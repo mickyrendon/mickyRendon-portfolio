@@ -18,6 +18,10 @@
     background-repeat: no-repeat;
     background-position: center;
 } */
+.bkg-preloader{
+    /* background-color: rgb(6, 23, 33); */
+    background-color: rgb(4, 16, 22);
+}
 body{
     display: flex;
     align-items: center;
@@ -60,12 +64,12 @@ portfolio-gallery,
     pointer-events: all;
     font-weight: 900;
 }
-.submit:hover{
+/* .submit:hover{
     /* color: rgb(183, 97, 232); */
-    /* box-shadow: var(--gallery-bx-sh); */
+    /* box-shadow: var(--gallery-bx-sh); *
     animation: pulse;
     animation-duration: 0.5s;
-}
+} */
 
 a, b, h1, h4, .submit,.academic, .secondary-btn {
     font-family: 'Roboto Mono', monospace;
@@ -120,6 +124,10 @@ svg{
 .brand-logo> svg{
     width:5rem;
     height:5rem;
+}
+.loader-ctr > div >.brand-logo> svg{
+    width: 10rem;
+    height:10rem;
 }
 .brand-logo .logo-fill{
     fill: var(--yllw);
@@ -204,7 +212,8 @@ b{
     align-items: center;
 }
 .language{
-    width:2.55rem;
+    padding: 0 0.1rem;
+    width:3rem;
     height: 2rem;
     background: transparent;
     color: var(--text-color);

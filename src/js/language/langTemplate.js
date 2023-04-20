@@ -1,4 +1,5 @@
 import { spanish, english } from "./content.js"
+import { modalSpanish, modalEnglish } from "../form/modal/languageTemplate.js"
     
 // cv btn
 const cv = document.querySelector('.download')
@@ -41,6 +42,13 @@ const iName = document.getElementById('name')
 const iEmail = document.getElementById('email')
 const iText = document.getElementById('textarea')
 const sendBtn = document.querySelector('.submit')
+
+// modal
+const modalTitle = document.querySelector('.modal-title')
+const txt = document.querySelector('.modal-txt')
+const acceptBtn = document.querySelector('#accept-btn')
+const cancelModal = document.querySelector('.cancel-modal')
+const okBtn = document.querySelector('.ok-btn')
 
 
 export const spanishTemplate = () => {
@@ -103,10 +111,10 @@ export const spanishTemplate = () => {
     eduItSection.children[3].textContent = spanish[0].academic.educacionIT.sql,
     eduItSection.children[4].textContent = spanish[0].academic.educacionIT.git,
 
-    autodidactSection.children[0].textContent = spanish[0].academic.autodidacta.title,
-    autodidactSection.children[1].textContent = spanish[0].academic.autodidacta.eng,
-    autodidactSection.children[2].textContent = spanish[0].academic.autodidacta.ps,
-    autodidactSection.children[3].textContent = spanish[0].academic.autodidacta.ai,
+    autodidactSection.children[0].textContent = spanish[0].academic.autodidact.title,
+    autodidactSection.children[1].textContent = spanish[0].academic.autodidact.eng,
+    // autodidactSection.children[2].textContent = spanish[0].academic.autodidact.ps,
+    // autodidactSection.children[3].textContent = spanish[0].academic.autodidact.ai,
 
     // form
     formH1.innerHTML   = spanish[0].form.title,
@@ -114,6 +122,13 @@ export const spanishTemplate = () => {
     iEmail.placeholder = spanish[0].form.email,
     iText.placeholder  = spanish[0].form.textArea,
     sendBtn.value      = spanish[0].form.btn.submit
+
+    // modal
+    modalTitle.textContent  = modalSpanish[0].title
+    txt.textContent         = modalSpanish[0].p
+    cancelModal.textContent = modalSpanish[0].cancelBtn
+    acceptBtn.textContent   = modalSpanish[0].sendBtn
+    okBtn.textContent       = modalSpanish[0].ok
 }
 
 export const englishTemplate = () => {
@@ -175,10 +190,10 @@ export const englishTemplate = () => {
     eduItSection.children[3].textContent = english[0].academic.educacionIT.sql,
     eduItSection.children[4].textContent = english[0].academic.educacionIT.git,
 
-    autodidactSection.children[0].textContent = english[0].academic.autodidacta.title,
-    autodidactSection.children[1].textContent = english[0].academic.autodidacta.eng,
-    autodidactSection.children[2].textContent = english[0].academic.autodidacta.ps,
-    autodidactSection.children[3].textContent = english[0].academic.autodidacta.ai,
+    autodidactSection.children[0].textContent = english[0].academic.autodidact.title,
+    autodidactSection.children[1].textContent = english[0].academic.autodidact.eng,
+    // autodidactSection.children[2].textContent = english[0].academic.autodidact.ps,
+    // autodidactSection.children[3].textContent = english[0].academic.autodidact.ai,
 
     // form
     formH1.innerHTML   = english[0].form.title,
@@ -186,4 +201,11 @@ export const englishTemplate = () => {
     iEmail.placeholder = english[0].form.email,
     iText.placeholder  = english[0].form.textArea,
     sendBtn.value      = english[0].form.btn.submit
+
+    // modal
+    modalTitle.textContent  = modalEnglish[0].title
+    txt.textContent         = modalEnglish[0].p
+    cancelModal.textContent = modalEnglish[0].cancelBtn
+    acceptBtn.textContent   = modalEnglish[0].sendBtn
+    okBtn.textContent       = modalEnglish[0].ok
 }

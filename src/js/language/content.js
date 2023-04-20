@@ -77,12 +77,12 @@ export const spanish = [
                 git: `GIT desarrollo colaborativo`,
                 sql: `Introducción a base de datos y SQL`
             },
-            autodidacta: {
+            autodidact: {
                 title: `Autodidacta`,
                 eng: `Inglés B1(intermedio)`,
-                ps: `Adobe Photoshop`,
-                ai: `Adobe Ilustrator`,
-                xd: `Adobe XD`
+                // ps: `Adobe Photoshop`,
+                // ai: `Adobe Ilustrator`,
+                // xd: `Adobe XD`
             }
         },
         form: {
@@ -174,10 +174,11 @@ export const english = [
                 git: `GIT collaborative development`,
                 sql: `Database introduction and SQL`
             },
-            autodidacta: {
+            autodidact: {
+                title: `Autodidact`,
                 eng: `English B1(intermediate)`,
-                ps: `Adobe Photoshop`,
-                ai: `Adobe Ilustrator`
+                // ps: `Adobe Photoshop`,
+                // ai: `Adobe Ilustrator`
             }
         },
         form: {
@@ -186,14 +187,12 @@ export const english = [
             email: `email`,
             textArea: `let your message`,
             btn: {
-                submit: `Submit`,
+                submit: `Send`,
                 // cancel: ``,
                 // accept: ``
             }
         }
     }
 ]
-export const modal = [
-    {}
-]
+
 

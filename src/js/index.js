@@ -45,3 +45,8 @@ label.forEach((e) => {
         return click(e)
     })
 })
+const submitBtn = document.querySelector('.submit')
+submitBtn.addEventListener('click', async (e) => {
+    const { modal } = await import('./form/submitBtn.js')
+    return  modal(e)
+})
