@@ -577,7 +577,9 @@ footer{
          /* flex end when proyects are more than 4 */
          /* justify-content:flex-end; */
          /* flex end when proyects are less than 4 */
-        justify-content: space-evenly;
+        /* justify-content: space-evenly;
+         */
+         max-width: 90vw;
      }
      .proyect-label{
         margin:0 0.5rem;

@@ -5,6 +5,14 @@ export const spanish = [
         cv: `Descargar CV`,
         proyects : {
             title: `Algunos proyectos`,
+            ffox: {
+                title : `Find Fox`,
+                description: `Aplicación que permite buscar imagenes de zorros de forma aleatoria, usa la API de 'randomfox' y buenas prácticas como lazy loader y dinamic import creado con vanilla JavaScript, HTML y Tailwind.`,
+                buttons : {
+                    demo: `Demo`,
+                    repo: `Codigo`,
+                }
+            },
             resto: {
                 title : `Mi Restaurant`,
                 description: `Template personalizable para cualquier restaurante. Creado con vanilla JavaScript, HTML, CSS, Tailwind. La pagina permite navegar facilmente al usuario, tiene un botón de acción para que el usuario reserve o pida con una llamada.`,
@@ -115,9 +123,17 @@ export const english = [
         cv: `Download CV`,
         proyects : {
             title: `Some proyects`,
+            ffox: {
+                title : `Find Fox`,
+                description: `Application that allows to search for foxes images randomly, uses the 'randomfox' API and good practices such as lazy loader and dynamic import created with vanilla JavaScript, HTML, and Tailwind.`,
+                buttons : {
+                    demo: `Demo`,
+                    repo: `Code`
+                }
+            },
             resto: {
                 title : `My Restaurant`,
-                description: `"Customizable template for any restaurant. Created with vanilla JavaScript, HTML, CSS, and Tailwind. The page allows for easy navigation for the user, and it has a call-to-action button for the user to make a reservation or order with a phone call.`,
+                description: `Customizable template for any restaurant. Created with vanilla JavaScript, HTML, CSS, and Tailwind. The page allows for easy navigation for the user, and it has a call-to-action button for the user to make a reservation or order with a phone call.`,
                 buttons : {
                     demo: `Demo`,
                     repo: `Code`

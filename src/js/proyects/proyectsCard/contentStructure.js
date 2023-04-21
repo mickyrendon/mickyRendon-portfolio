@@ -1,5 +1,16 @@
 export const proyectStructure = [
     {
+        imgAlt: `Find-Fox`,
+        bkgImage: `url(./assets/profilePic/gallery/proyectsBackgrounds/ffox.png)`,
+        iconImage: `./assets/profilePic/gallery/ProyectsIcons/ffox.svg`,
+        buttons : {
+            demoURl: `https://find-fox.netlify.app/`,
+            repoURl: `https://github.com/mickyrendon/FindFox`
+
+        },
+        ownClass: `fox`,
+    },
+    {
         imgAlt: `mi-resto`,
         bkgImage: `url(./assets/profilePic/gallery/proyectsBackgrounds/resto.png)`,
         iconImage: `./assets/profilePic/gallery/ProyectsIcons/resto.svg`,

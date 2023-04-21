@@ -9,6 +9,7 @@ const resumeText = document.querySelector('.resume-text')
 // title
 const galleryH1 = document.querySelector('.gallery-title')
 // cards
+const ffox = document.querySelector('.fox')
 const resto = document.querySelector('.resto-ctr')
 const pswrd = document.querySelector('.pswrd-ctr')
 const lTls = document.querySelector('.l-tls')
@@ -59,6 +60,11 @@ export const spanishTemplate = () => {
         
     // proyects
     galleryH1.textContent = spanish[0].proyects.title,
+    // card 8
+    ffox.children[0].innerHTML = spanish[0].proyects.ffox.title,
+    ffox.children[1].innerHTML = spanish[0].proyects.ffox.description,
+    ffox.children[2].children[0].innerHTML =  spanish[0].proyects.ffox.buttons.demo,
+    ffox.children[2].children[1].children[0].innerHTML = spanish[0].proyects.ffox.buttons.repo,
     // card 7
     resto.children[0].innerHTML = spanish[0].proyects.resto.title,
     resto.children[1].innerHTML = spanish[0].proyects.resto.description,
@@ -143,6 +149,11 @@ export const englishTemplate = () => {
         
     // proyects
     galleryH1.textContent = english[0].proyects.title,
+    // card 8
+    ffox.children[0].innerHTML = english[0].proyects.ffox.title,
+    ffox.children[1].innerHTML = english[0].proyects.ffox.description,
+    ffox.children[2].children[0].innerHTML =  english[0].proyects.ffox.buttons.demo,
+    ffox.children[2].children[1].children[0].innerHTML = english[0].proyects.ffox.buttons.repo,
     // card 7
     resto.children[0].innerHTML = english[0].proyects.resto.title,
     resto.children[1].innerHTML = english[0].proyects.resto.description,
