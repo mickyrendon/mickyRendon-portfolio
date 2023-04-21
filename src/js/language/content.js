@@ -69,17 +69,17 @@ export const spanish = [
         academic: {
             title: `Académico`,
             currently : {
-                title: `Actualmente`,
+                title: `2022-Actualmente`,
                 // ob : `Open Bootcamp, React`,
                 platziFSWD: `Platzi, full stack developer con JavaScript`,
                 platziUI: `Platzi, diseño de interfaces (UI)`
             },
             acamica : {
-                title: `Acamica`,
+                title: `Acamica 2019-2020`,
                 fswd:`Desarrollador Web Full Stack`,
             },
             educacionIT: {
-                title: `Educación IT`,
+                title: `Educación IT 2018-2019`,
                 html : `Maquetación web HTML5 Y CSS3`,
                 js: `JavaScript desde cero`,
                 git: `GIT desarrollo colaborativo`,
@@ -179,12 +179,17 @@ export const english = [
         },
         academic: {
             currently : {
-                ob : `Open Bootcamp, React`,
+                title: `2022-Currently`,
+                // ob : `Open Bootcamp, React`,
                 platziFSWD: `Platzi, full stack developer with JavaScript`,
                 platziUI: `Platzi, User Interface (UI)`
             },
-            acamica : `Full Stack Web Developer`,
+            acamica :{
+                title: `Acamica 2019-2020`,
+                fswd: `Full Stack Web Developer`
+            } ,
             educacionIT: {
+                title: `Educación IT 2018-2019`,
                 html : `Web layout HTML5 and CSS3`,
                 js: `JavaScript from scratch`,
                 git: `GIT collaborative development`,
