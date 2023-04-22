@@ -9,7 +9,7 @@ export const modalSpanish = [
         alertTitle: `¡Todos los campos son obligatorios!`,
         alertMsg: `Verifica que todos los campos esten llenos con los valores correspondientes y vuelve a intentarlo.`,
         // email placeholder
-        ePlaceHolder: `Completa bien este campo`,
+        errorPlaceH: `Completa bien este campo`,
     }
 ]
 export const modalEnglish = [
@@ -23,7 +23,7 @@ export const modalEnglish = [
         alertTitle: `All fields are required!`,
         alertMsg: `Verify that all the fields are filled with the corresponding values and try again.`, 
         // email placeholder
-        ePlaceHolder: `Complete this field well`
+        errorPlaceH: `Complete this field well`
     }
 ]
     

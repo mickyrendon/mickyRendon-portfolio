@@ -1,5 +1,4 @@
 import { spanish, english } from "./content.js"
-import { modalSpanish, modalEnglish } from "../form/modal/languageTemplate.js"
     
 // cv btn
 const cv = document.querySelector('.download')
@@ -43,14 +42,6 @@ const iName = document.getElementById('name')
 const iEmail = document.getElementById('email')
 const iText = document.getElementById('textarea')
 const sendBtn = document.querySelector('.submit')
-
-// modal
-const modalTitle = document.querySelector('.modal-title')
-const txt = document.querySelector('.modal-txt')
-const acceptBtn = document.querySelector('#accept-btn')
-const cancelModal = document.querySelector('.cancel-modal')
-const okBtn = document.querySelector('.ok-btn')
-
 
 export const spanishTemplate = () => {
     // download
@@ -134,12 +125,6 @@ export const spanishTemplate = () => {
     iText.placeholder  = spanish[0].form.textArea,
     sendBtn.value      = spanish[0].form.btn.submit
 
-    // modal
-    modalTitle.textContent  = modalSpanish[0].title
-    txt.textContent         = modalSpanish[0].p
-    cancelModal.textContent = modalSpanish[0].cancelBtn
-    acceptBtn.textContent   = modalSpanish[0].sendBtn
-    okBtn.textContent       = modalSpanish[0].ok
 }
 
 export const englishTemplate = () => {
@@ -222,11 +207,4 @@ export const englishTemplate = () => {
     iEmail.placeholder = english[0].form.email,
     iText.placeholder  = english[0].form.textArea,
     sendBtn.value      = english[0].form.btn.submit
-
-    // modal
-    modalTitle.textContent  = modalEnglish[0].title
-    txt.textContent         = modalEnglish[0].p
-    cancelModal.textContent = modalEnglish[0].cancelBtn
-    acceptBtn.textContent   = modalEnglish[0].sendBtn
-    okBtn.textContent       = modalEnglish[0].ok
 }

@@ -59,7 +59,7 @@ portfolio-gallery,
 }
   /* attribute selector */
 [href], .submit{
-    max-width: 50vw;
+    /* max-width: 50vw; */
     color:var(--link-c);
     pointer-events: all;
     font-weight: 900;
@@ -515,16 +515,20 @@ footer{
   }
 /* modal */
 .circle-advisor{
-    background-color:var(--yllw);
-    color: var(--p-btn);
+    background-color:rgba(255,223,67,1);
+    color: #433e43;
 }
 .bck-main-colors{
     background-color:var(--yllw);
+}
+.modal-title, .modal-txt{
+    color: #070707;
 }
 /* hidden class */
 .hidden{
     display:none;
 }
+
 @media(min-width:620px){
     .sticky-nav, main, footer{
        max-width: 70vw;
