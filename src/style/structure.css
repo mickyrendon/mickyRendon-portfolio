@@ -700,3 +700,62 @@ footer{
       opacity: 1;
     }
   }
+  /* preloader animation */
+  /* Definir la animación */
+@keyframes bounce-in-out {
+    0% {
+      transform: scale(0.1);
+      opacity: 0;
+    }
+    50% {
+      transform: scale(1.2);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  /* Aplicar la animación al elemento */
+/* Definir la animación */
+/* @keyframes bounce-in-out {
+    0% {
+      transform: scale(0.1);
+      opacity: 0;
+    }
+    50% {
+      transform: scale(1.2);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  /* Aplicar la animación al elemento *
+  .element{
+    animation: bounce-in-out 2s infinite;
+  }
+   */
+  /* Definir la animación */
+@keyframes opacidad {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  /* Aplicar la animación al elemento */
+  .element{
+    animation-name: opacidad;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  
