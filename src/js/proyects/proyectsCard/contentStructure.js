@@ -1,5 +1,16 @@
 export const proyectStructure = [
     {
+        imgAlt: `Mmovie`,
+        bkgImage: `url(./assets/profilePic/gallery/proyectsBackgrounds/mmovie.png)`,
+        iconImage: `./assets/profilePic/gallery/ProyectsIcons/mmovieLogo.svg`,
+        buttons : {
+            demoURl: `https://mickyrendon.github.io/mmovie/#home`,
+            repoURl: `https://github.com/mickyrendon/mmovie`
+
+        },
+        ownClass: `mmovie`,
+    },
+    {
         imgAlt: `Find-Fox`,
         bkgImage: `url(./assets/profilePic/gallery/proyectsBackgrounds/ffox.png)`,
         iconImage: `./assets/profilePic/gallery/ProyectsIcons/ffox.svg`,
@@ -21,50 +32,7 @@ export const proyectStructure = [
         },
         ownClass: `resto-ctr`,
     },
-    {
-        imgAlt: `password-generator`,
-        bkgImage: `url(./assets/profilePic/gallery/proyectsBackgrounds/pswrd.png)`,
-        iconImage: `./assets/profilePic/gallery/ProyectsIcons/secure-svgrepo-com.svg`,
-        buttons : {
-            demoURl: `https://mickyrendon.github.io/password-generator/`,
-            repoURl: `https://github.com/mickyrendon/password-generator`
-
-        },
-        ownClass: `pswrd-ctr`,
-    },
-    {
-        imgAlt: `los-tilos-logo`,
-        bkgImage: `url(./assets/profilePic/gallery/proyectsBackgrounds/lostilos.png)`,
-        iconImage: `./assets/profilePic/gallery/ProyectsIcons/losTilosLogo.png`,
-        buttons : {
-            demoURl:`https://mickyrendon.github.io/LosTilos/`,
-            repoURl: `https://github.com/mickyrendon/LosTilos`
-
-        },
-        ownClass: `l-tls`,
-    },
-    {
-        imgAlt: `my-budget`,
-        bkgImage: `url(./assets/profilePic/gallery/proyectsBackgrounds/budget.png)`,
-        iconImage: `./assets/profilePic/gallery/ProyectsIcons/calculator.svg`,
-        buttons : {
-            demoURl:`https://mickyrendon.github.io/presupuesto/`,
-            repoURl: `https://github.com/mickyrendon/presupuesto`
-
-        },
-        ownClass: `bgt`,
-    },
-    {
-        imgAlt: `Instagram-clone`,
-        bkgImage: `url(./assets/profilePic/gallery/proyectsBackgrounds/instagram.png)`,
-        iconImage: `./assets/profilePic/gallery/ProyectsIcons/instagram-svgrepo-com.svg`,
-        buttons : {
-            demoURl: `https://mickyrendon.github.io/instagram-clone/`,
-            repoURl: `https://github.com/mickyrendon/instagram-clone`
-
-        },
-        ownClass: `insta`,
-    },
+    
     {
         imgAlt: `Twitter-clone`,
         bkgImage: `url(./assets/profilePic/gallery/proyectsBackgrounds/twitter.png)`,
@@ -87,6 +55,52 @@ export const proyectStructure = [
     },
 ]
 
+
+// others less important proyects
+/* {
+    imgAlt: `password-generator`,
+    bkgImage: `url(./assets/profilePic/gallery/proyectsBackgrounds/pswrd.png)`,
+    iconImage: `./assets/profilePic/gallery/ProyectsIcons/secure-svgrepo-com.svg`,
+    buttons : {
+        demoURl: `https://mickyrendon.github.io/password-generator/`,
+        repoURl: `https://github.com/mickyrendon/password-generator`
+
+    },
+    ownClass: `pswrd-ctr`,
+},
+{
+    imgAlt: `los-tilos-logo`,
+    bkgImage: `url(./assets/profilePic/gallery/proyectsBackgrounds/lostilos.png)`,
+    iconImage: `./assets/profilePic/gallery/ProyectsIcons/losTilosLogo.png`,
+    buttons : {
+        demoURl:`https://mickyrendon.github.io/LosTilos/`,
+        repoURl: `https://github.com/mickyrendon/LosTilos`
+
+    },
+    ownClass: `l-tls`,
+},
+{
+    imgAlt: `my-budget`,
+    bkgImage: `url(./assets/profilePic/gallery/proyectsBackgrounds/budget.png)`,
+    iconImage: `./assets/profilePic/gallery/ProyectsIcons/calculator.svg`,
+    buttons : {
+        demoURl:`https://mickyrendon.github.io/presupuesto/`,
+        repoURl: `https://github.com/mickyrendon/presupuesto`
+
+    },
+    ownClass: `bgt`,
+},
+{
+    imgAlt: `Instagram-clone`,
+    bkgImage: `url(./assets/profilePic/gallery/proyectsBackgrounds/instagram.png)`,
+    iconImage: `./assets/profilePic/gallery/ProyectsIcons/instagram-svgrepo-com.svg`,
+    buttons : {
+        demoURl: `https://mickyrendon.github.io/instagram-clone/`,
+        repoURl: `https://github.com/mickyrendon/instagram-clone`
+
+    },
+    ownClass: `insta`,
+}, */
 /* 
 /  others bkgImages
 .guifos{

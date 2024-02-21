@@ -5,6 +5,14 @@ export const spanish = [
         cv: `Descargar CV`,
         proyects : {
             title: `Algunos proyectos`,
+            mmovie: {
+                title : `Mmovie`,
+                description: `Aplicación que permite ver y buscar peliculas en cartelera, usa la API de 'TheMovieDB'. Modularización, local storage, location, hash navigation, manejo profesional del DOM, refactorización del código (DRY), creado con vanilla JavaScript, HTML, Tailwind y Glide.js.`,
+                buttons : {
+                    demo: `Demo`,
+                    repo: `Codigo`,
+                }
+            },
             ffox: {
                 title : `Find Fox`,
                 description: `Aplicación que permite buscar imagenes de zorros de forma aleatoria, usa la API de 'randomfox' y buenas prácticas como lazy loader y dinamic import creado con vanilla JavaScript, HTML y Tailwind.`,
@@ -21,38 +29,38 @@ export const spanish = [
                     repo: `Codigo`,
                 }
             },
-            pswd: {
-                title : `Generador de contraseñas`,
-                description: `Creado con JavaScript, HTML, CSS, API's. La aplicación le permite elegir el tipo de caracteres y longitud de la contraseña, también puede copiar la contraseña gracias al uso de la web API. Hace uso de una API de frases.`,
-                buttons : {
-                    demo: `Demo`,
-                    repo: `Codigo`,
-                }
-            },
-            losTilos: {
-                title : `Los Tilos`,
-                description: `Pagina web responsiva creada con HTML, CSS, JavaScript y Bootstrap para mostrar una casa de alquiler, trabajé con arreglos, funciones y el DOM.`,
-                buttons : {
-                    demo: `Demo`,
-                    repo: `Codigo`,
-                }
-            },
-            budget: {
-                title : `Mi presupuesto`,
-                description: `Una sencilla app para administrar el presupuesto personal, le permite agregar y ver ingresos y egresos con un panel de total actualizado. Trabajé con clases en JS, HTML Y CSS`,
-                buttons : {
-                    demo: `Demo`,
-                    repo: `Codigo`,
-                }
-            },
-            instagram: {
-                title : `Clon de Instagram`,
-                description: `Clon de Instagram del Platzi challenge portfolio web creado con HTML, CSS y un poco de JS con diseño responsive.`,
-                buttons : {
-                    demo: `Demo`,
-                    repo: `Codigo`,
-                }
-            },
+            // pswd: {
+            //     title : `Generador de contraseñas`,
+            //     description: `Creado con JavaScript, HTML, CSS, API's. La aplicación le permite elegir el tipo de caracteres y longitud de la contraseña, también puede copiar la contraseña gracias al uso de la web API. Hace uso de una API de frases.`,
+            //     buttons : {
+            //         demo: `Demo`,
+            //         repo: `Codigo`,
+            //     }
+            // },
+            // losTilos: {
+            //     title : `Los Tilos`,
+            //     description: `Pagina web responsiva creada con HTML, CSS, JavaScript y Bootstrap para mostrar una casa de alquiler, trabajé con arreglos, funciones y el DOM.`,
+            //     buttons : {
+            //         demo: `Demo`,
+            //         repo: `Codigo`,
+            //     }
+            // },
+            // budget: {
+            //     title : `Mi presupuesto`,
+            //     description: `Una sencilla app para administrar el presupuesto personal, le permite agregar y ver ingresos y egresos con un panel de total actualizado. Trabajé con clases en JS, HTML Y CSS`,
+            //     buttons : {
+            //         demo: `Demo`,
+            //         repo: `Codigo`,
+            //     }
+            // },
+            // instagram: {
+            //     title : `Clon de Instagram`,
+            //     description: `Clon de Instagram del Platzi challenge portfolio web creado con HTML, CSS y un poco de JS con diseño responsive.`,
+            //     buttons : {
+            //         demo: `Demo`,
+            //         repo: `Codigo`,
+            //     }
+            // },
             twitter: {
                 title : `Clon de Twitter`,
                 description: `Clon de Twitter del Platzi challenge portfolio web creado con HTML, CSS y un poco de JS con diseño responsive.`,
@@ -123,6 +131,14 @@ export const english = [
         cv: `Download CV`,
         proyects : {
             title: `Some proyects`,
+            mmovie: {
+                title : `Mmovie`,
+                description: `Application that allows you to watch and search for movies in theaters, uses the 'TheMovieDB' API. Modularization, local storage, location, hash navigation, professional DOM management, code refactoring (DRY), created with vanilla JavaScript, HTML, Tailwind and Glide.js.`,
+                buttons : {
+                    demo: `Demo`,
+                    repo: `Code`
+                }
+            },
             ffox: {
                 title : `Find Fox`,
                 description: `Application that allows to search for foxes images randomly, uses the 'randomfox' API and good practices such as lazy loader and dynamic import created with vanilla JavaScript, HTML, and Tailwind.`,
@@ -139,38 +155,38 @@ export const english = [
                     repo: `Code`
                 }
             },
-            pswd: {
-                title : `Password generator`,
-                description: `Created with JavaScript, HTML; CSS; API's. The application let you choose the chars type and the password length, also you can copy the password thanks to the use of the web API. Make use of an API of quotes.`,
-                buttons : {
-                    demo: `Demo`,
-                    repo: `Code`
-                }
-            },
-            losTilos: {
-                title : `Los Tilos`,
-                description: `Responsive web page created with HTML, CSS, JavaScript and Bootstrap to show a rental house, i worked with arrays, functions and DOM.`,
-                buttons : {
-                    demo: `Demo`,
-                    repo: `Code`
-                }
-            },
-            budget: {
-                title : `My budget`,
-                description: `A simple app to manage personal budget, let you to add and view incomes and expenses with an updated total panel. I worked with classes in JS, HTML and CSS.`,
-                buttons : {
-                    demo: `Demo`,
-                    repo: `Code`
-                }
-            },
-            instagram: {
-                title : `Instagram clone`,
-                description: `Instagram Clone for Platzi Challenge web portfolio created with HTML, CSS and a bit of JS with responsive design.`,
-                buttons : {
-                    demo: `Demo`,
-                    repo: `Code`
-                }
-            },
+            // pswd: {
+            //     title : `Password generator`,
+            //     description: `Created with JavaScript, HTML; CSS; API's. The application let you choose the chars type and the password length, also you can copy the password thanks to the use of the web API. Make use of an API of quotes.`,
+            //     buttons : {
+            //         demo: `Demo`,
+            //         repo: `Code`
+            //     }
+            // },
+            // losTilos: {
+            //     title : `Los Tilos`,
+            //     description: `Responsive web page created with HTML, CSS, JavaScript and Bootstrap to show a rental house, i worked with arrays, functions and DOM.`,
+            //     buttons : {
+            //         demo: `Demo`,
+            //         repo: `Code`
+            //     }
+            // },
+            // budget: {
+            //     title : `My budget`,
+            //     description: `A simple app to manage personal budget, let you to add and view incomes and expenses with an updated total panel. I worked with classes in JS, HTML and CSS.`,
+            //     buttons : {
+            //         demo: `Demo`,
+            //         repo: `Code`
+            //     }
+            // },
+            // instagram: {
+            //     title : `Instagram clone`,
+            //     description: `Instagram Clone for Platzi Challenge web portfolio created with HTML, CSS and a bit of JS with responsive design.`,
+            //     buttons : {
+            //         demo: `Demo`,
+            //         repo: `Code`
+            //     }
+            // },
             twitter: {
                 title : `Twitter clone`,
                 description: `Twitter Clone for Platzi Challenge web portfolio created with HTML, CSS and a bit of JS with responsive design.`,

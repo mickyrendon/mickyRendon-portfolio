@@ -8,15 +8,16 @@ const resumeText = document.querySelector('.resume-text')
 // title
 const galleryH1 = document.querySelector('.gallery-title')
 // cards
+const mmovie = document.querySelector('.mmovie')
 const ffox = document.querySelector('.fox')
 const resto = document.querySelector('.resto-ctr')
-const pswrd = document.querySelector('.pswrd-ctr')
-const lTls = document.querySelector('.l-tls')
-const bgt = document.querySelector('.bgt')
-const insta = document.querySelector('.insta')
 const twtr = document.querySelector('.twtr')
 const pbdpCtnr = document.querySelector('.pbdp-ctnr')
 // others cards
+// const pswrd = document.querySelector('.pswrd-ctr')
+// const lTls = document.querySelector('.l-tls')
+// const bgt = document.querySelector('.bgt')
+// const insta = document.querySelector('.insta')
 // const bsf = document.querySelector('.bsf')
 // const pList = document.querySelector('.p-lst')
 // const gfs = document.querySelector('.gfs')
@@ -51,36 +52,21 @@ export const spanishTemplate = () => {
         
     // proyects
     galleryH1.textContent = spanish[0].proyects.title,
-    // card 8
+    // card 5
+    mmovie.children[0].innerHTML = spanish[0].proyects.mmovie.title,
+    mmovie.children[1].innerHTML = spanish[0].proyects.mmovie.description,
+    mmovie.children[2].children[0].innerHTML =  spanish[0].proyects.mmovie.buttons.demo,
+    mmovie.children[2].children[1].children[0].innerHTML = spanish[0].proyects.mmovie.buttons.repo,
+    // card 4
     ffox.children[0].innerHTML = spanish[0].proyects.ffox.title,
     ffox.children[1].innerHTML = spanish[0].proyects.ffox.description,
     ffox.children[2].children[0].innerHTML =  spanish[0].proyects.ffox.buttons.demo,
     ffox.children[2].children[1].children[0].innerHTML = spanish[0].proyects.ffox.buttons.repo,
-    // card 7
+    // card 3
     resto.children[0].innerHTML = spanish[0].proyects.resto.title,
     resto.children[1].innerHTML = spanish[0].proyects.resto.description,
     resto.children[2].children[0].innerHTML =  spanish[0].proyects.resto.buttons.demo,
     resto.children[2].children[1].children[0].innerHTML = spanish[0].proyects.resto.buttons.repo,
-    // card 6
-    pswrd.children[0].innerHTML = spanish[0].proyects.pswd.title,
-    pswrd.children[1].innerHTML = spanish[0].proyects.pswd.description,
-    pswrd.children[2].children[0].innerHTML =  spanish[0].proyects.pswd.buttons.demo,
-    pswrd.children[2].children[1].children[0].innerHTML = spanish[0].proyects.pswd.buttons.repo,
-    // card 5
-    lTls.children[0].innerHTML = spanish[0].proyects.losTilos.title,
-    lTls.children[1].innerHTML = spanish[0].proyects.losTilos.description,
-    lTls.children[2].children[0].innerHTML = spanish[0].proyects.losTilos.buttons.demo,
-    lTls.children[2].children[1].children[0].innerHTML = spanish[0].proyects.losTilos.buttons.repo,
-    // card 4
-    bgt.children[0].innerHTML = spanish[0].proyects.budget.title,
-    bgt.children[1].innerHTML = spanish[0].proyects.budget.description,
-    bgt.children[2].children[0].innerHTML = spanish[0].proyects.budget.buttons.demo,
-    bgt.children[2].children[1].children[0].innerHTML = spanish[0].proyects.budget.buttons.repo,
-    // card 3
-    insta.children[0].innerHTML = spanish[0].proyects.instagram.title,
-    insta.children[1].innerHTML = spanish[0].proyects.instagram.description,
-    insta.children[2].children[0].innerHTML = spanish[0].proyects.instagram.buttons.demo,
-    insta.children[2].children[1].children[0].innerHTML = spanish[0].proyects.instagram.buttons.repo,
     // card 2
     twtr.children[0].innerHTML = spanish[0].proyects.twitter.title,
     twtr.children[1].innerHTML = spanish[0].proyects.twitter.description,
@@ -127,6 +113,7 @@ export const spanishTemplate = () => {
 
 }
 
+
 export const englishTemplate = () => {
     cv.textContent = english[0].cv
     // resume
@@ -134,36 +121,21 @@ export const englishTemplate = () => {
         
     // proyects
     galleryH1.textContent = english[0].proyects.title,
-    // card 8
+    // card 5
+    mmovie.children[0].innerHTML = english[0].proyects.mmovie.title,
+    mmovie.children[1].innerHTML = english[0].proyects.mmovie.description,
+    mmovie.children[2].children[0].innerHTML =  english[0].proyects.mmovie.buttons.demo,
+    mmovie.children[2].children[1].children[0].innerHTML = english[0].proyects.mmovie.buttons.repo,
+    // card 4
     ffox.children[0].innerHTML = english[0].proyects.ffox.title,
     ffox.children[1].innerHTML = english[0].proyects.ffox.description,
     ffox.children[2].children[0].innerHTML =  english[0].proyects.ffox.buttons.demo,
     ffox.children[2].children[1].children[0].innerHTML = english[0].proyects.ffox.buttons.repo,
-    // card 7
+    // card 3
     resto.children[0].innerHTML = english[0].proyects.resto.title,
     resto.children[1].innerHTML = english[0].proyects.resto.description,
     resto.children[2].children[0].innerHTML =  english[0].proyects.resto.buttons.demo,
     resto.children[2].children[1].children[0].innerHTML = english[0].proyects.resto.buttons.repo,
-    // card 6
-    pswrd.children[0].innerHTML = english[0].proyects.pswd.title,
-    pswrd.children[1].innerHTML = english[0].proyects.pswd.description,
-    pswrd.children[2].children[0].innerHTML =  english[0].proyects.pswd.buttons.demo,
-    pswrd.children[2].children[1].children[0].innerHTML = english[0].proyects.pswd.buttons.repo,
-    // card 5
-    lTls.children[0].innerHTML = english[0].proyects.losTilos.title,
-    lTls.children[1].innerHTML = english[0].proyects.losTilos.description,
-    lTls.children[2].children[0].innerHTML = english[0].proyects.losTilos.buttons.demo,
-    lTls.children[2].children[1].children[0].innerHTML = english[0].proyects.losTilos.buttons.repo,
-    // card 4
-    bgt.children[0].innerHTML = english[0].proyects.budget.title,
-    bgt.children[1].innerHTML = english[0].proyects.budget.description,
-    bgt.children[2].children[0].innerHTML = english[0].proyects.budget.buttons.demo,
-    bgt.children[2].children[1].children[0].innerHTML = english[0].proyects.budget.buttons.repo,
-    // card 3
-    insta.children[0].innerHTML = english[0].proyects.instagram.title,
-    insta.children[1].innerHTML = english[0].proyects.instagram.description,
-    insta.children[2].children[0].innerHTML = english[0].proyects.instagram.buttons.demo,
-    insta.children[2].children[1].children[0].innerHTML = english[0].proyects.instagram.buttons.repo,
     // card 2
     twtr.children[0].innerHTML = english[0].proyects.twitter.title,
     twtr.children[1].innerHTML = english[0].proyects.twitter.description,
@@ -208,3 +180,49 @@ export const englishTemplate = () => {
     iText.placeholder  = english[0].form.textArea,
     sendBtn.value      = english[0].form.btn.submit
 }
+
+// others spanish cards
+/* 
+pswrd.children[0].innerHTML = spanish[0].proyects.pswd.title,
+    pswrd.children[1].innerHTML = spanish[0].proyects.pswd.description,
+    pswrd.children[2].children[0].innerHTML =  spanish[0].proyects.pswd.buttons.demo,
+    pswrd.children[2].children[1].children[0].innerHTML = spanish[0].proyects.pswd.buttons.repo,
+    // card 5
+    lTls.children[0].innerHTML = spanish[0].proyects.losTilos.title,
+    lTls.children[1].innerHTML = spanish[0].proyects.losTilos.description,
+    lTls.children[2].children[0].innerHTML = spanish[0].proyects.losTilos.buttons.demo,
+    lTls.children[2].children[1].children[0].innerHTML = spanish[0].proyects.losTilos.buttons.repo,
+    // card 4
+    bgt.children[0].innerHTML = spanish[0].proyects.budget.title,
+    bgt.children[1].innerHTML = spanish[0].proyects.budget.description,
+    bgt.children[2].children[0].innerHTML = spanish[0].proyects.budget.buttons.demo,
+    bgt.children[2].children[1].children[0].innerHTML = spanish[0].proyects.budget.buttons.repo,
+    // card 3
+    insta.children[0].innerHTML = spanish[0].proyects.instagram.title,
+    insta.children[1].innerHTML = spanish[0].proyects.instagram.description,
+    insta.children[2].children[0].innerHTML = spanish[0].proyects.instagram.buttons.demo,
+    insta.children[2].children[1].children[0].innerHTML = spanish[0].proyects.instagram.buttons.repo,
+
+others english cards
+// card 6
+    pswrd.children[0].innerHTML = english[0].proyects.pswd.title,
+    pswrd.children[1].innerHTML = english[0].proyects.pswd.description,
+    pswrd.children[2].children[0].innerHTML =  english[0].proyects.pswd.buttons.demo,
+    pswrd.children[2].children[1].children[0].innerHTML = english[0].proyects.pswd.buttons.repo,
+    // card 5
+    lTls.children[0].innerHTML = english[0].proyects.losTilos.title,
+    lTls.children[1].innerHTML = english[0].proyects.losTilos.description,
+    lTls.children[2].children[0].innerHTML = english[0].proyects.losTilos.buttons.demo,
+    lTls.children[2].children[1].children[0].innerHTML = english[0].proyects.losTilos.buttons.repo,
+    // card 4
+    bgt.children[0].innerHTML = english[0].proyects.budget.title,
+    bgt.children[1].innerHTML = english[0].proyects.budget.description,
+    bgt.children[2].children[0].innerHTML = english[0].proyects.budget.buttons.demo,
+    bgt.children[2].children[1].children[0].innerHTML = english[0].proyects.budget.buttons.repo,
+    // card 3
+    insta.children[0].innerHTML = english[0].proyects.instagram.title,
+    insta.children[1].innerHTML = english[0].proyects.instagram.description,
+    insta.children[2].children[0].innerHTML = english[0].proyects.instagram.buttons.demo,
+    insta.children[2].children[1].children[0].innerHTML = english[0].proyects.instagram.buttons.repo,
+
+    */
