@@ -8,6 +8,7 @@ const resumeText = document.querySelector('.resume-text')
 // title
 const galleryH1 = document.querySelector('.gallery-title')
 // cards
+const shoppi = document.querySelector('.shoppi')
 const mmovie = document.querySelector('.mmovie')
 const ffox = document.querySelector('.fox')
 const resto = document.querySelector('.resto-ctr')
@@ -52,6 +53,11 @@ export const spanishTemplate = () => {
         
     // proyects
     galleryH1.textContent = spanish[0].proyects.title,
+    // card 6
+    shoppi.children[0].innerHTML = spanish[0].proyects.shoppi.title,
+    shoppi.children[1].innerHTML = spanish[0].proyects.shoppi.description,
+    shoppi.children[2].children[0].innerHTML =  spanish[0].proyects.shoppi.buttons.demo,
+    shoppi.children[2].children[1].children[0].innerHTML = spanish[0].proyects.shoppi.buttons.repo,
     // card 5
     mmovie.children[0].innerHTML = spanish[0].proyects.mmovie.title,
     mmovie.children[1].innerHTML = spanish[0].proyects.mmovie.description,
@@ -121,6 +127,11 @@ export const englishTemplate = () => {
         
     // proyects
     galleryH1.textContent = english[0].proyects.title,
+    // card 6
+    shoppi.children[0].innerHTML = english[0].proyects.shoppi.title,
+    shoppi.children[1].innerHTML = english[0].proyects.shoppi.description,
+    shoppi.children[2].children[0].innerHTML =  english[0].proyects.shoppi.buttons.demo,
+    shoppi.children[2].children[1].children[0].innerHTML = english[0].proyects.shoppi.buttons.repo,
     // card 5
     mmovie.children[0].innerHTML = english[0].proyects.mmovie.title,
     mmovie.children[1].innerHTML = english[0].proyects.mmovie.description,

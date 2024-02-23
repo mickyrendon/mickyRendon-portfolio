@@ -1,4 +1,16 @@
 export const proyectStructure = [
+        // imgAlt =  la primera en mayuscula para que no hayan errores
+    {
+        imgAlt: `Shoppi`,
+        bkgImage: `url(./assets/profilePic/gallery/proyectsBackgrounds/shoppi.png)`,
+        iconImage: `./assets/profilePic/gallery/ProyectsIcons/shoppi.svg`,
+        buttons : {
+            demoURl: `https://shoppiapp.netlify.app/`,
+            repoURl: `https://github.com/mickyrendon/shoppi`
+
+        },
+        ownClass: `shoppi`,
+    },
     {
         imgAlt: `Mmovie`,
         bkgImage: `url(./assets/profilePic/gallery/proyectsBackgrounds/mmovie.png)`,

@@ -5,9 +5,17 @@ export const spanish = [
         cv: `Descargar CV`,
         proyects : {
             title: `Algunos proyectos`,
+            shoppi: {
+                title : `Shoppi`,
+                description: `Ecommerce que permite filtrar productos por su título y categoría, consultar detalles de un producto, agregar productos al carrito de compras, hacer checkout y revisar historial de compras. Usa la API de 'Fake Store'. Componentes, Modularización, local storage, navegación con react-router-dom, react-hooks, refactorización del código (DRY), creado con ReactJS, Vite.js, HTML y Tailwind.`,
+                buttons : {
+                    demo: `Demo`,
+                    repo: `Codigo`,
+                }
+            },
             mmovie: {
                 title : `Mmovie`,
-                description: `Aplicación que permite ver y buscar peliculas en cartelera, usa la API de 'TheMovieDB'. Modularización, local storage, location, hash navigation, manejo profesional del DOM, refactorización del código (DRY), creado con vanilla JavaScript, HTML, Tailwind y Glide.js.`,
+                description: `Aplicación que permite ver y buscar peliculas en cartelera, usa la API de 'TheMovieDB'. Modularización, local storage, location, hash navigation, manejo profesional del DOM, refactorización del código (DRY), creado con vanilla JavaScript, Axios, HTML, Tailwind y Glide.js.`,
                 buttons : {
                     demo: `Demo`,
                     repo: `Codigo`,
@@ -131,9 +139,17 @@ export const english = [
         cv: `Download CV`,
         proyects : {
             title: `Some proyects`,
+            shoppi: {
+                title : `Shoppi`,
+                description: `Ecommerce that allows you to filter products by title and category, consult product details, add products to the shopping cart, checkout and review purchase history. Use the 'Fake Store' API. Components, Modularization, local storage, navigation with react-router-dom, react-hooks, code refactoring (DRY), created with ReactJS, Vite.js, HTML and Tailwind.`,
+                buttons : {
+                    demo: `Demo`,
+                    repo: `Code`
+                }
+            },
             mmovie: {
                 title : `Mmovie`,
-                description: `Application that allows you to watch and search for movies in theaters, uses the 'TheMovieDB' API. Modularization, local storage, location, hash navigation, professional DOM management, code refactoring (DRY), created with vanilla JavaScript, HTML, Tailwind and Glide.js.`,
+                description: `Application that allows you to watch and search for movies in theaters, uses the 'TheMovieDB' API. Modularization, local storage, location, hash navigation, professional DOM management, code refactoring (DRY), created with vanilla JavaScript, Axios, HTML, Tailwind and Glide.js.`,
                 buttons : {
                     demo: `Demo`,
                     repo: `Code`
