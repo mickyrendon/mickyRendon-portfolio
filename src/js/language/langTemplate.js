@@ -33,9 +33,10 @@ const academicTitle = document.querySelector('.acad-h4')
 // currently parent node
 const currentlySection = document.querySelector('.currently')
 // acamica parent node
-// const platziSection = document.querySelector('.platzi')
+const platziSection = document.querySelector('.platzi')
 // acamica parent node
 const acamicaSection = document.querySelector('.acamica')
+console.log(platziSection, currentlySection, acamicaSection )
 // edu it parent node
 const eduItSection = document.querySelector('.edu-it')
 // autodidact parent node
@@ -102,9 +103,10 @@ export const spanishTemplate = () => {
     currentlySection.children[0].textContent = spanish[0].academic.currently.title,
     currentlySection.children[1].textContent = spanish[0].academic.currently.ob,
     currentlySection.children[2].textContent = spanish[0].academic.currently.platziFSWD,
+    // currentlySection.children[3].textContent = spanish[0].academic.currently.platziUI,
     
-    // platziSection.children[0].textContent = spanish[0].academic.platzi.title,
-    // platziSection.children[1].textContent = spanish[0].academic.platzi.platziUI,
+    platziSection.children[0].textContent = spanish[0].academic.platzi.title,
+    platziSection.children[1].textContent = spanish[0].academic.platzi.platziUI,
     
     acamicaSection.children[0].textContent = spanish[0].academic.acamica.title,
     acamicaSection.children[1].textContent = spanish[0].academic.acamica.fswd,
@@ -183,6 +185,7 @@ export const englishTemplate = () => {
     currentlySection.children[0].textContent = english[0].academic.currently.title,
     currentlySection.children[1].textContent = english[0].academic.currently.ob,
     currentlySection.children[2].textContent = english[0].academic.currently.platziFSWD,
+    currentlySection.children[3].textContent = english[0].academic.currently.platziUI,
     
     // platziSection.children[0].textContent = english[0].academic.platzi.title,
     // platziSection.children[1].textContent = english[0].academic.platzi.platziUI,
