@@ -1,5 +1,9 @@
 export const contentCard = [
     {
+        name: `React`,
+        url: `./assets/profilePic/techIcons/react.svg`
+    },
+    {
         name: `JavaScript`,
         url: `./assets/profilePic/techIcons/js.svg`
     },

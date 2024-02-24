@@ -8,6 +8,7 @@ const resumeText = document.querySelector('.resume-text')
 // title
 const galleryH1 = document.querySelector('.gallery-title')
 // cards
+const todoList = document.querySelector('.todo-list')
 const shoppi = document.querySelector('.shoppi')
 const mmovie = document.querySelector('.mmovie')
 const ffox = document.querySelector('.fox')
@@ -32,6 +33,8 @@ const academicTitle = document.querySelector('.acad-h4')
 // currently parent node
 const currentlySection = document.querySelector('.currently')
 // acamica parent node
+// const platziSection = document.querySelector('.platzi')
+// acamica parent node
 const acamicaSection = document.querySelector('.acamica')
 // edu it parent node
 const eduItSection = document.querySelector('.edu-it')
@@ -53,6 +56,11 @@ export const spanishTemplate = () => {
         
     // proyects
     galleryH1.textContent = spanish[0].proyects.title,
+    // card 7
+    todoList.children[0].innerHTML = spanish[0].proyects.todoList.title,
+    todoList.children[1].innerHTML = spanish[0].proyects.todoList.description,
+    todoList.children[2].children[0].innerHTML =  spanish[0].proyects.todoList.buttons.demo,
+    todoList.children[2].children[1].children[0].innerHTML = spanish[0].proyects.todoList.buttons.repo,
     // card 6
     shoppi.children[0].innerHTML = spanish[0].proyects.shoppi.title,
     shoppi.children[1].innerHTML = spanish[0].proyects.shoppi.description,
@@ -94,7 +102,9 @@ export const spanishTemplate = () => {
     currentlySection.children[0].textContent = spanish[0].academic.currently.title,
     currentlySection.children[1].textContent = spanish[0].academic.currently.ob,
     currentlySection.children[2].textContent = spanish[0].academic.currently.platziFSWD,
-    currentlySection.children[3].textContent = spanish[0].academic.currently.platziUI,
+    
+    // platziSection.children[0].textContent = spanish[0].academic.platzi.title,
+    // platziSection.children[1].textContent = spanish[0].academic.platzi.platziUI,
     
     acamicaSection.children[0].textContent = spanish[0].academic.acamica.title,
     acamicaSection.children[1].textContent = spanish[0].academic.acamica.fswd,
@@ -127,6 +137,11 @@ export const englishTemplate = () => {
         
     // proyects
     galleryH1.textContent = english[0].proyects.title,
+    // card 7
+    todoList.children[0].innerHTML = english[0].proyects.todoList.title,
+    todoList.children[1].innerHTML = english[0].proyects.todoList.description,
+    todoList.children[2].children[0].innerHTML =  english[0].proyects.todoList.buttons.demo,
+    todoList.children[2].children[1].children[0].innerHTML = english[0].proyects.todoList.buttons.repo,
     // card 6
     shoppi.children[0].innerHTML = english[0].proyects.shoppi.title,
     shoppi.children[1].innerHTML = english[0].proyects.shoppi.description,
@@ -168,8 +183,10 @@ export const englishTemplate = () => {
     currentlySection.children[0].textContent = english[0].academic.currently.title,
     currentlySection.children[1].textContent = english[0].academic.currently.ob,
     currentlySection.children[2].textContent = english[0].academic.currently.platziFSWD,
-    currentlySection.children[3].textContent = english[0].academic.currently.platziUI,
     
+    // platziSection.children[0].textContent = english[0].academic.platzi.title,
+    // platziSection.children[1].textContent = english[0].academic.platzi.platziUI,
+
     acamicaSection.children[0].textContent = english[0].academic.acamica.title,
     acamicaSection.children[1].textContent = english[0].academic.acamica.fswd,
     

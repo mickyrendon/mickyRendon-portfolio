@@ -1,9 +1,5 @@
 export const contentCard = [
     {
-        name: `React`,
-        url: `./assets/profilePic/techIcons/react.svg`
-    },
-    {
         name: `TypeScript`,
         url: `./assets/profilePic/techIcons/typescript.svg`
     },

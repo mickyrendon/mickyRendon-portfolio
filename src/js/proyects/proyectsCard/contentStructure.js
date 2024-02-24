@@ -1,6 +1,17 @@
 export const proyectStructure = [
         // imgAlt =  la primera en mayuscula para que no hayan errores
     {
+        imgAlt: `Todo-list`,
+        bkgImage: `url(./assets/profilePic/gallery/proyectsBackgrounds/todoList.png)`,
+        iconImage: `./assets/profilePic/gallery/ProyectsIcons/todoList.svg`,
+        buttons : {
+            demoURl: `https://mickyrendon.github.io/TODOs_app/`,
+            repoURl: `https://github.com/mickyrendon/TODOs_app`
+
+        },
+        ownClass: `todo-list`,
+    },
+    {
         imgAlt: `Shoppi`,
         bkgImage: `url(./assets/profilePic/gallery/proyectsBackgrounds/shoppi.png)`,
         iconImage: `./assets/profilePic/gallery/ProyectsIcons/shoppi.svg`,

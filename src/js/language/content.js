@@ -5,6 +5,14 @@ export const spanish = [
         cv: `Descargar CV`,
         proyects : {
             title: `Algunos proyectos`,
+            todoList: {
+                title : `ToDo app`,
+                description: `Aplicación que permite crear tareas pendientes con ReactJS, componentes, props y atributos, props drillin, eventos, estados, librerias de iconos, local storage, custom hooks, features-first, directories en React, useEffect, react context, use context, react portals y formularios.`,
+                buttons : {
+                    demo: `Demo`,
+                    repo: `Codigo`,
+                }
+            },
             shoppi: {
                 title : `Shoppi`,
                 description: `Ecommerce que permite filtrar productos por su título y categoría, consultar detalles de un producto, agregar productos al carrito de compras, hacer checkout y revisar historial de compras. Usa la API de 'Fake Store'. Componentes, Modularización, local storage, navegación con react-router-dom, react-hooks, refactorización del código (DRY), creado con ReactJS, Vite.js, HTML y Tailwind.`,
@@ -93,11 +101,15 @@ export const spanish = [
         academic: {
             title: `Académico`,
             currently : {
-                title: `2022-Actualmente`,
+                title: `2023-Actualmente`,
                 // ob : `Open Bootcamp, React`,
                 platziFSWD: `Platzi, full stack developer con JavaScript`,
                 platziUI: `Platzi, diseño de interfaces (UI)`
             },
+            // platzi : {
+            //     title: `2022-2023`,
+            //     platziUI: `Platzi, diseño de interfaces (UI)`
+            // },
             acamica : {
                 title: `Acamica 2019-2020`,
                 fswd:`Desarrollador Web Full Stack`,
@@ -139,6 +151,14 @@ export const english = [
         cv: `Download CV`,
         proyects : {
             title: `Some proyects`,
+            todoList: {
+                title : `ToDo App`,
+                description: `Application that allows you to create pending tasks with ReactJS, components, props and attributes, drillin props, events, states, icon libraries, local storage, custom hooks, features-first, directories in React, useEffect, react context, use context, react portals and forms.`,
+                buttons : {
+                    demo: `Demo`,
+                    repo: `Code`
+                }
+            },
             shoppi: {
                 title : `Shoppi`,
                 description: `Ecommerce that allows you to filter products by title and category, consult product details, add products to the shopping cart, checkout and review purchase history. Use the 'Fake Store' API. Components, Modularization, local storage, navigation with react-router-dom, react-hooks, code refactoring (DRY), created with ReactJS, Vite.js, HTML and Tailwind.`,
@@ -227,11 +247,14 @@ export const english = [
         },
         academic: {
             currently : {
-                title: `2022-Currently`,
-                // ob : `Open Bootcamp, React`,
+                title: `2023-Currently`,
                 platziFSWD: `Platzi, full stack developer with JavaScript`,
                 platziUI: `Platzi, User Interface (UI)`
             },
+            // platzi : {
+            //     title: `2022-2023`,
+            //     platziUI: `Platzi, User Interface (UI)`
+            // },
             acamica :{
                 title: `Acamica 2019-2020`,
                 fswd: `Full Stack Web Developer`
